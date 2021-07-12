@@ -17,7 +17,11 @@ html, body { overflow-y: auto;
     list-style: none;
     text-align: center;
   }
-  
+  .foot
+  {
+    background-color: darkgray;
+    
+  }
   #members li {
     cursor: pointer;
     display: inline-block;

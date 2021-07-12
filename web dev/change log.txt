@@ -1,0 +1,24 @@
+
+<!-- 
+problem solution
+extra left whitespace:
+(solution with 48 upvotes or nearer)
+in css added
+html, body { overflow-x: hidden; }
+source link:
+https://stackoverflow.com/questions/16704893/twitter-bootstrap-white-gap-on-right-side-of-page
+
+aos set attribute problem:
+moved following code from <head>
+    to previous line of </body>
+------
+   <script>
+                AOS.init();
+              </script>
+--------
+https://github.com/michalsnik/aos/issues/42
+
+
+
+
+ -->

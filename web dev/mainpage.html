@@ -23,9 +23,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+
     </head>
     
     <body>               
@@ -329,7 +327,35 @@
                     <p class="footer-class">Copyright   © ICT@S 2021<br />WEBSITE BY ICT@S WEB DEV TEAM</p>
                 </div>
             </footer>
-
+            <script>
+                AOS.init();
+              </script>
     </body>
 </html>
-{"mode":"full","isActive":false}
+<!-- {"mode":"full","isActive":false} -->
+
+
+
+<!-- 
+problem solution
+extra left whitespace:
+(solution with 48 upvotes or nearer)
+in css added
+html, body { overflow-x: hidden; }
+source link:
+https://stackoverflow.com/questions/16704893/twitter-bootstrap-white-gap-on-right-side-of-page
+
+aos set attribute problem:
+moved following code from <head>
+    to previous line of </body>
+------
+   <script>
+                AOS.init();
+              </script>
+--------
+https://github.com/michalsnik/aos/issues/42
+
+
+
+
+ -->

@@ -8,6 +8,8 @@
   font-smooth: antialiased;
   text-rendering: optimizeLegibility
 }
+
+html, body { overflow-x: hidden; }
 #members {
     padding: 0;
     margin: 0 auto 25px auto;

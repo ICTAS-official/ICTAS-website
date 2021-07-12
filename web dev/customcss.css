@@ -79,6 +79,19 @@ section{
 img, figure {
     max-width: 100%;
 }
+
+.org_name{
+  color: #aeaeae;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
   /* #scrolltop {
     display: none;
   }

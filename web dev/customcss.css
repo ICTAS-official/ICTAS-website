@@ -1,4 +1,4 @@
-*,
+/* *,
 *:after,
 *:before {
   box-sizing: border-box;
@@ -7,9 +7,10 @@
   -webkit-font-smoothing: antialiased;
   font-smooth: antialiased;
   text-rendering: optimizeLegibility
-}
+} */
 
-html, body { overflow-x: hidden; }
+html, body { overflow-y: auto;
+  overflow-x: hidden; }
 #members {
     padding: 0;
     margin: 0 auto 25px auto;

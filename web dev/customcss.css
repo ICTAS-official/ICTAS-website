@@ -12,6 +12,54 @@
 /* to solve right space problem */
 html, body { overflow-y: auto;
   overflow-x: hidden; }
+.foot
+{
+background-color:#a3c7f1 75%;
+    
+}
+.bodyback
+{
+background: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);
+}
+/* color for every section heading */
+h2{
+  color:white
+}
+/* for teams list heading */
+h4{
+  color: #ffee00;
+}
+
+/* nav bar customisation */
+.navbar-brand
+{
+  padding:5px;
+  /* border:2px solid transparent; */
+  border-radius: 1.5rem;
+  box-shadow: -5px 0 transparent;
+}
+.navbar-brand:hover
+{
+  /* border-left:2px solid whitesmoke; */
+  /* top right bottom left */
+  box-shadow: -5px 0 white;
+}
+
+.nav-link
+{
+  color: rgb(0, 0, 0)!important;
+  border-left: 2px solid transparent;
+  border-radius: 5.5rem;
+  box-shadow: -5px 0 transparent;
+}
+.nav-link:hover
+{
+  border-left: 2px solid white;
+  box-shadow: -5px 0 white;
+}
+.navbar-nav{
+  border-bottom: 1px solid darkblue;
+}
 
 /*----------------------------------------------------------------------
 # teams
@@ -24,15 +72,7 @@ html, body { overflow-y: auto;
     list-style: none;
     text-align: center;
   }
-  .foot
-  {
-    background-color:#a3c7f1 75%;
-    
-  }
-  .bodyback
-  {
-    background: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);
-  }
+
   #members li {
     cursor: pointer;
     display: inline-block;
@@ -41,16 +81,16 @@ html, body { overflow-y: auto;
     font-weight: 400;
     line-height: 1;
     text-transform: uppercase;
-    color: #555555;
     transition: all 0.3s ease-in-out;
     margin: 0 4px 10px 4px;
-    background: whitesmoke;
+    background-color: aliceblue;
+    color: rgb(0, 41, 75);
     border-radius: 4px;
   }
   
   #members li:hover, #members li.active {
-    background: #7cc576;
-    color: #fff;
+    background:rgb(0, 41, 75);
+    color: aliceblue;
   }
   
   #mem li:last-child {
@@ -68,7 +108,9 @@ html, body { overflow-y: auto;
 ----------------------------------------------------------------------*/
 section{
   width: 100%;
-  height: 100%;
+  min-height:700px;
+  /* height: 100%; */
+  
 }
 
 /*----------------------------------------------------------------------
@@ -120,13 +162,14 @@ img, figure {
 
 
 .social-icons a{
-  padding: 2%;
+  padding: 2% 3%;
   color:white;
   border: 2px solid transparent;
+  border-radius: 5.5rem;
 }
 .social-icons a:hover{
-  border: 2px solid rgb(225, 255, 54);
-  box-shadow: -10px 5px rgb(225, 255, 54);
+  border: 2px solid white;
+  box-shadow: -5px 0 white;
 }
 .footer-copyright{
   color: #ffff;
@@ -135,6 +178,7 @@ img, figure {
 footer h6{
 color: white;
 }
+
 /*----------------------------------------------------------------------
 # end of footer
 ----------------------------------------------------------------------*/

@@ -1,16 +1,16 @@
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 200, function(){
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
+// $(document).ready(function(){
+//   $("a").on('click', function(event) {
+//     if (this.hash !== "") {
+//       event.preventDefault();
+//       var hash = this.hash;
+//       $('html, body').animate({
+//         scrollTop: $(hash).offset().top
+//       }, 200, function(){
+//         window.location.hash = hash;
+//       });
+//     } 
+//   });
+// });
 
 var currentActive="filter-coordinators";
 function changeMemberList(n)
@@ -45,6 +45,38 @@ function changeMemberList(n)
     }
 }
 
+var currentTeam="filter-tech";
+function changeTeamList(n)
+{
+    if(n==1)
+    {
+
+        document.getElementById(currentTeam).className=String(document.getElementById(currentTeam).className).replace("active","");
+        currentTeam="filter-tech";
+        document.getElementById(currentTeam).className=document.getElementById(currentTeam).className+"active";
+        document.getElementById("l-tech").hidden=false;
+        document.getElementById("l-nontech").hidden=true;
+        document.getElementById("l-pr").hidden=true;
+    }
+    if(n==2)
+    {
+        document.getElementById(currentTeam).className=  String(document.getElementById(currentTeam).className).replace("active","");
+        currentTeam="filter-nontech";
+        document.getElementById(currentTeam).className=document.getElementById(currentTeam).className+" active";
+        document.getElementById("l-tech").hidden=true;
+        document.getElementById("l-nontech").hidden=false;
+        document.getElementById("l-pr").hidden=true;
+    }
+    if(n==3)
+    {
+        document.getElementById(currentTeam).className=  String(document.getElementById(currentTeam).className).replace("active","");
+        currentTeam="filter-pr";
+        document.getElementById(currentTeam).className=document.getElementById(currentTeam).className+" active";
+        document.getElementById("l-tech").hidden=true;
+        document.getElementById("l-nontech").hidden=true;
+        document.getElementById("l-pr").hidden=false;
+    }
+}
 //Get the button
 
 // When the user scrolls down 20px from the top of the document, show the button

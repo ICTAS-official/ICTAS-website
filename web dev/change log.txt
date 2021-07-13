@@ -31,3 +31,11 @@ https://github.com/michalsnik/aos/issues/42
  log 3:
  changed footer with design taken(part of design)
  https://mdbootstrap.com/snippets/jquery/temp/3189739?action=prism_export#html-tab-view
+
+
+ log 4:
+ changed inline css to customcss.css
+ added appropriate comments to the code
+ added footer color and changed the color scheme
+ changed team member codes and adding necessary blocks for all members
+ 

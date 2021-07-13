@@ -9,8 +9,15 @@
   text-rendering: optimizeLegibility
 } */
 
+/* to solve right space problem */
 html, body { overflow-y: auto;
   overflow-x: hidden; }
+
+/*----------------------------------------------------------------------
+# teams
+----------------------------------------------------------------------*/
+
+
 #members {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -48,6 +55,9 @@ html, body { overflow-y: auto;
     display: none;
   }
 
+/*----------------------------------------------------------------------
+#end of #teams
+----------------------------------------------------------------------*/
 section{
   width: 100%;
   height: 100%;
@@ -95,6 +105,37 @@ img, figure {
   font-weight: 500;
   line-height: 56px;
 }
+
+/*----------------------------------------------------------------------
+# Footer social media icons
+----------------------------------------------------------------------*/
+
+
+.social-icons a{
+  padding: 2%;
+  color:white;
+  border: 2px solid transparent;
+}
+.social-icons a:hover{
+  border: 2px solid rgb(225, 255, 54);
+  box-shadow: -10px 5px rgb(225, 255, 54);
+}
+.footer-copyright{
+  color: #ffff;
+  background-color: rgb(0, 40, 92);
+}
+footer h6{
+color: white;
+}
+/*----------------------------------------------------------------------
+# end of footer
+----------------------------------------------------------------------*/
+
+
+
+
+
+/* this code is for rocket (back to top) design 2  button which is  not working*/
   /* #scrolltop {
     display: none;
   }

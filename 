@@ -1,0 +1,69 @@
+[33mcommit b95fe90ec5844ae810ab0db7c7ea3803d69392cd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Narayanan-bg <narayananbg12@gmail.com>
+Date:   Mon Jul 12 21:51:32 2021 +0530
+
+    Reduced the footer Area And Made some minor changes to it
+
+[33mcommit 6b7f22b240d05cabc599413924cc9194167e71e2[m
+Author: Narayanan-bg <narayananbg12@gmail.com>
+Date:   Mon Jul 12 20:40:37 2021 +0530
+
+    commit
+
+[33mcommit ce4e376dfd8940658afbf75faf1db1e72115a46e[m
+Author: abishek sriram <abisheksriram2001@gmail.com>
+Date:   Mon Jul 12 16:16:21 2021 +0530
+
+    Solved whitespace and setAttribute(aos) problem and added change lpg
+
+[33mcommit 32180a178bafd3d94f9aae924a99595bdc1632bf[m
+Author: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+Date:   Mon Jul 12 14:24:22 2021 +0530
+
+    ictas: Add text to home screen
+    
+    Signed-off-by: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+
+[33mcommit 509d768fb78fa6d5b58fa7c6c5ed62df740dae86[m
+Author: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+Date:   Mon Jul 12 14:18:05 2021 +0530
+
+    ictas: Add scroll down button
+    
+    Signed-off-by: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+
+[33mcommit 1687bcf3ebe458a81953ac1b17605ed31cb0b5d0[m
+Author: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+Date:   Mon Jul 12 13:59:56 2021 +0530
+
+    ictas: Make some changes
+    
+    Signed-off-by: Srijith Bharadwaj D <srijithdamerla2001@gmail.com>
+
+[33mcommit d5e9ad09bf372d79066dfe6732423b93be51db22[m
+Author: Abishek Sriram G <abisheksriram2001@gmail.com>
+Date:   Mon Jul 12 08:48:25 2021 +0530
+
+    adding prototype 1
+
+[33mcommit 072fffc785d5c71ef492eda7b190c20f1a580c91[m
+Author: ICTAS-official <87258976+ICTAS-official@users.noreply.github.com>
+Date:   Sun Jul 11 14:19:07 2021 +0530
+
+    changed readme.md
+    
+    added to do list to readme.md
+
+[33mcommit bce38d7cb94783aaf2d552406b253a2ab82fa8b1[m
+Author: ICTAS-official <87258976+ICTAS-official@users.noreply.github.com>
+Date:   Sun Jul 11 14:15:55 2021 +0530
+
+    initial temporary code file committed
+    
+    contents committed
+
+[33mcommit 2a82648112e7279f392fc268c98b692028623b51[m
+Author: ICTAS-official <87258976+ICTAS-official@users.noreply.github.com>
+Date:   Sun Jul 11 13:01:09 2021 +0530
+
+    Initial commit

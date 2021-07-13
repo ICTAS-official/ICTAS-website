@@ -10,7 +10,8 @@
 } */
 
 html, body { overflow-y: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
 #members {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -19,8 +20,12 @@ html, body { overflow-y: auto;
   }
   .foot
   {
-    background-color: darkgray;
+    background-color:#a3c7f1 75%;
     
+  }
+  .bodyback
+  {
+    background: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);
   }
   #members li {
     cursor: pointer;

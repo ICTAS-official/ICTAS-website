@@ -42,20 +42,20 @@ h4{
 {
   /* border-left:2px solid whitesmoke; */
   /* top right bottom left */
-  box-shadow: -5px 0 white;
+  background-color: aliceblue;
+  /* box-shadow: -5px 0 white; */
 }
 
 .nav-link
 {
   color: rgb(0, 0, 0)!important;
-  border-left: 2px solid transparent;
-  border-radius: 5.5rem;
-  box-shadow: -5px 0 transparent;
+  border-bottom: 2px solid transparent;
+  /* border-radius: 5.5rem; */
+  /* box-shadow: -5px 0 transparent; */
 }
 .nav-link:hover
 {
-  border-left: 2px solid white;
-  box-shadow: -5px 0 white;
+  border-bottom: 2px solid aliceblue;
 }
 .navbar-nav{
   border-bottom: 1px solid darkblue;

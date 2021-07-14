@@ -2,11 +2,11 @@
 
 Underconstruction
 TODO LIST
-- [ ] NAVBAr-fixed
+- [x] NAVBAr-fixed
 - [ ] logo creation
-- [ ] jumbotron :inital ICTAS preloader animation with duration (on load)
-- [ ] about (ready)
-- [ ] legacy(ready)
+- [x] jumbotron :inital ICTAS preloader animation with duration (on load)
+- [x] about (ready)
+- [x] legacy(ready)
 
 - [ ] events(link)
 - [ ] with currently happening as a separate page
@@ -14,18 +14,19 @@ TODO LIST
 
 - [ ] smooth transition code for page scrool
 
-- [ ] teams(change design) only names
-- [ ] https://bootstrapmade.com/demo/Knight/
+- [x] teams(change design) only names
+- [] member name is yet temp names, yet to be changed to original
+- [x] https://bootstrapmade.com/demo/Knight/
 (
-- [ ] Co-Ordinators
-- [ ] Core Members(
--- [ ] tech,
--- [ ] non-tech, 
--- [ ] pr)
--- [ ] Web development Team
+- [x] Co-Ordinators
+- [x] Core Members(
+-- [x] tech,
+-- [x] non-tech, 
+-- [x] pr)
+-- [x] Web development Team
 )
 
-- [ ] contact us:
+- [x] contact us:
 - [ ]     github, discord(to be created), instagram, gmail
 
-- [ ] copyright(web dev)
+- [x] copyright(web dev)

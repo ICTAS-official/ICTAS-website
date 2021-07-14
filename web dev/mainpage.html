@@ -12,22 +12,30 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <link rel="stylesheet" href="customcss.css">
+        <link rel="stylesheet" type="text/css" href="loader.css">
         <script src="script.js"></script>
         <script src="rocketjs.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="main.js"></script>
 
     </head>
 <!-- NAVBAR cum HOME -->
-    <body class="bodyback">               
-            <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <body class="bodyback">
+            <div class="loader-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
+            <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" data-aos="fade-right" data-aos-duration="2000">
                 <div class="container">
                     <a class="navbar-brand" href="#">ICT@S</a>
                     <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu">
@@ -46,10 +54,12 @@
                 </div>
             </nav>  
 
-            <section class="text-center content-section" id="home" style="background-color: #04857a;">
-                <div class="container">
-                        <h1 class="org_name">ICT@S</h1>
-                        <a class="ct-btn-scroll ct-js-btn-scroll" href="#about"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+            <section class="text-center content-section" id="home">
+                <div class="container_org">
+                        <h1 class="org_name" data-aos="zoom-in" data-aos-duration="1000">ICT@S</h1>
+                        <h2 class="details" data-aos="zoom-out-up" data-aos-delay="1000" data-aos-duration="1000">Key To Infinity</h2>
+
+                        <a class="ct-btn-scroll ct-js-btn-scroll" href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000" data-aos-anchor-placement="top-center"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
                 </div>
             </section>
 <!-- end of navbar -->
@@ -177,59 +187,58 @@
                     <div class="row" >
                         <h2>Current ICTAS Team</h2>
                         <hr>
-                        <div class="" style="min-height: 900px;">
+                        <div class="col-lg-8 mx-auto" style="min-height: 900px;">
                         <!-- Role Taba -->
                             <div class="row" data-aos="fade-up" data-aos-delay="100">
                                 <div class="col-lg-12 d-flex justify-content-center">
                                   <ul id="members">
                                     <li  id="filter-coordinators" class="x active"  onclick="changeMemberList(1)">Coordinators</li>
                                     <li id="filter-core" class="x "  onclick="changeMemberList(2)">Core Team Members</li>
-                                    <li id="filter-web" class="x"  onclick="changeMemberList(3)">Web development Team</li>
+                                    <li id="filter-web" class="x"  onclick="changeMemberList(3)">Junior Team</li>
                                   </ul>
                                 </div>
                             </div>
 
                         <!-- End of role taba -->
 
-                        <!-- code for coordinators list -->
-                            
-                            <div class="row  align-items-center" data-aos="flip-right" >
-                                <div class="member-coordinator align-items-center" id="m-coordinator" >
+                        <div class="row" data-aos="flip-right">
+                                <div class="member-coordinator" id="m-coordinator">
                                     <h4>Coordinators</h4>
-
-                                        <ol class="list-group  align-items-center">
-                                            <li class="list-group-item w-75 d-flex justify-content-between ">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">G.Abishek Sriram </div>
-                                                </div>  
-                                                <span class="badge bg-primary rounded-pill">Chairperson</span>  <span> &nbsp;</span>
-                                                <span class="badge bg-primary rounded-pill">WEB</span>                                   
-                                            </li>
-    
-                                            <li class="list-group-item w-75 d-flex justify-content-between ">
-                                            <div class="ms-2  me-auto">
-                                                <div class="fw-bold">Sharumathi RB</div>                                    
-                                            </div>                                        
-                                            <span class="badge bg-primary rounded-pill">Chairperson</span> <span> &nbsp;</span>
-                                            <span class="badge bg-primary rounded-pill">PR</span> 
-                                            </li>
-    
-                                            <li class="list-group-item  w-75 d-flex justify-content-between ">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Putta Sai Srinivas </div>
-                                
-                                                </div>  
-                                                <span class="badge bg-primary rounded-pill">Joint Secretary</span>    <span> &nbsp;</span>        
-                                                <span class="badge bg-primary rounded-pill">Tech</span>                            
-                                            </li>
-                                            <li class="list-group-item  w-75 d-flex justify-content-between ">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Deepthi S</div>
-                                                </div>  
-                                                <span class="badge bg-primary rounded-pill">Treasurer</span>  <span> &nbsp;</span> 
-                                                <span class="badge bg-primary rounded-pill">Tech</span>                                     
-                                            </li>
-                                        </ol>
+                                    <div class="row">
+                                        <div class="col" data-aos="fade-down">
+                                            <div class="card ms-2">
+                                                <div class="card-header">Chairperson</div>
+                                                <div class="card-body">
+                                                    <p class="card-text">Abhishek Shriram</p>
+                                                    <p class="card-text">Sharumathi R. B</p>
+                                                </div>                                  
+                                            </div>
+                                        </div>
+                                        <div class="col" data-aos="fade-down">
+                                            <div class="card ms-2">
+                                                <div class="card-header">Secretary</div>
+                                                <div class="card-body">
+                                                    <p class="card-text">Sai Srinivas</p>
+                                                </div>                                  
+                                            </div>
+                                            <div class="card ms-2">
+                                                <div class="card-header">Treasurer</div>
+                                                <div class="card-body">
+                                                    <p class="card-text">Deepthi</p>
+                                                </div>                                  
+                                            </div>
+                                        </div>
+                                        <div class="col" data-aos="fade-down">
+                                            <div class="card ms-2">
+                                                <div class="card-header">Team Heads</div>
+                                                <div class="card-body">
+                                                    <p class="card-text">Venkatesh P.R. (Tech)</p>
+                                                    <p class="card-text">Jayaparvathi Ramesh (Non-Tech)</p>
+                                                </div>                                  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                  
                                     <!-- <ol class="list-group list-group-numbered" >
 
@@ -262,10 +271,9 @@
                                             <span class="badge bg-primary rounded-pill">Treasurer</span>                                  
                                         </li>
                                     </ol> -->
-                                </div>
                             <!-- end of coordinator list -->
 
-                            <!-- web team list -->
+                            <!-- web team list
                                 <div class="member-web" id="m-web" hidden>
                                     <h4>Web Team</h4>
                                     <ol class="list-group  align-items-center">
@@ -282,222 +290,94 @@
                                         </div>                                        
                                         </li>
 
-                                        <!-- <li class="list-group-item  w-50 d-flex justify-content-between align-items-center">
+                                        <li class="list-group-item  w-50 d-flex justify-content-between align-items-center">
                                             <div class="ms-2  me-auto">
                                                 <div class="fw-bold">Web  Member 3</div>
                                             </div>                                        
-                                        </li> -->
+                                        </li> 
                                     </ol>
                                 </div>
-                            <!-- end of web team list -->
+                             end of web team list -->
 
-                            <!-- core member list -->
-                                <div class="member-core" id="m-core" hidden style="min-height: 500px;">
+                            <div class="member-core" id="m-core" hidden>
                                     <h4>Core Team</h4>
-                                    <div class="row" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="col-lg-12 d-flex justify-content-center">
-                                          <ul id="members">
-                                            <li  id="filter-tech" class="x active"  onclick="changeTeamList(1)">Tech</li>
-                                            <li id="filter-nontech" class="x "  onclick="changeTeamList(2)">Non-Tech</li>
-                                            <li id="filter-pr" class="x"  onclick="changeTeamList(3)">PR</li>
-                                          </ul>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="card">
+                                                <div class="card-header"> Tech </div>
+                                                <div class="card-body">
+                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                        <li>Adarsh</li>
+                                                        <li>Ankireddypalli Naga Sindhuri</li>
+                                                        <li>Chris Rohan M</li>
+                                                        <li>Devata Indumathi</li>
+                                                        <li>Layamitra C.B.</li>
+                                                        <li>Midde Jaheer</li>
+                                                        <li>Narayanan B</li>
+                                                        <li>Parthiv Sai</li>
+                                                        <li>Srijith Bharadwaj D</li>
+                                                        <li>Vaikunth S</li>
+                                                        <li>Venkatesh P R</li>
+                                                        <li>Sai Shivani R</li>
+                                                    </ul>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card">
+                                                <div class="card-header"> Non-Tech </div>
+                                                <div class="card-body">
+                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                        <li>Anirudh Balaji</li>
+                                                        <li>Sreelahari Dindukurthi</li>
+                                                        <li>Girish M</li>
+                                                        <li>Guduru Charan Sai Chowdary</li>
+                                                        <li>Nithiya Shree U V</li>
+                                                        <li>Polireddy Pavani</li>
+                                                        <li>Megha Ponnuthurai</li>
+                                                        <li>J Priyadharsini</li>
+                                                        <li>Prranesh raj</li>
+                                                        <li>A.Rajasudharshana</li>
+                                                        <li>Roshini</li>
+                                                        <li>Saathwick V</li>
+                                                        <li>Sushmaa P</li>
+                                                        <li>Yazhini E</li>
+                                                        <li>Gunturu Vidya vasavi</li>
+                                                        <li>Jinka Sai Mounika</li>
+                                                        <li>Varshini B</li>
+                                                    </ul>
+                                                </div>                                      
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="card">
+                                                    <div class="card-header"> Promotion </div>
+                                                    <div class="card-body">
+                                                        <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                            <li>Maheshwari</li>
+                                                            <li>Tulasidass</li>
+                                                        </ul>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="card">
+                                                    <div class="card-header"> Web Development </div>
+                                                    <div class="card-body">
+                                                        <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                            <li>Abhishek Shriram</li>
+                                                            <li>Narayanan</li>
+                                                            <li>Srijith Bharadwaj</li>
+                                                        </ul>
+                                                    </div> 
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <!-- tech team -->
-                                    <div id="l-tech" style="">    
-                                        <ol class="list-group  align-items-center">
-                                            <li class="list-group-item   w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Venkatesh P R </div>
-                                                </div>       
-                                                <span class="badge bg-primary rounded-pill">HEAD</span>                               
-                                            </li>
-    
-                                          
-    
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Adarsh kumar </div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Ankireddypalli Naga Sindhuri</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Chris Rohan M</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Parthiv Sai</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Devata Indumathi</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Dharanya</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Layamitra C.B.</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Midde Jaheer</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Shriram S</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Vaikunth S</div>                                    
-                                                </div>                                        
-                                         </li>
-                                          
-                                        </ol>
-
-                                    </div>
-                                    <!-- end of tech team -->
-                                    <!-- pr team -->
-                                    <div id="l-pr" hidden>
-                                        <ol class="list-group  align-items-center">
-                                            <li class="list-group-item   w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Maheshwari S
-                                                    </div>
-                                                </div>                                    
-                                            </li>
-    
-                                            <li class="list-group-item w-50 d-flex justify-content-between align-items-start">
-                                            <div class="ms-2  me-auto">
-                                                <div class="fw-bold">Tulasidass M
-                                                </div>                                    
-                                            </div>                                        
-                                            </li>
-
-                                        </ol>
-                                    </div>
-
-                                    <!-- end of pr -->
-                                    <!-- non tech team -->
-                                     <div id="l-nontech" hidden>
-                                        <ol class="list-group  align-items-center">
-                                            <li class="list-group-item   w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Jayaparvathi R </div>
-                                                </div>         
-                                                <span class="badge bg-primary rounded-pill">HEAD</span>                             
-                                            </li>
-    
-                                            <li class="list-group-item w-50 d-flex justify-content-between align-items-start">
-                                            <div class="ms-2  me-auto">
-                                                <div class="fw-bold">Anirudh Balaji</div>                                    
-                                            </div>                                        
-                                            </li>
-    
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Girish M</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Guduru Charan Sai Chowdary</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Gunturu Vidya vasavi</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">J Priyadharsini</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Jinka Sai Mounika</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Megha Ponnuthurai</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Nithiya Shree U V</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Polireddy pavani</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Prranesh raj </div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Roshini</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Saathwick V</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">SREELAHARI DINDUKURTHI</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Sushmaa P</div>
-                                                </div>                                        
-                                            </li>
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Varshini B</div>
-                                                </div>                                        
-                                            </li>
-                                            <!-- <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Non Tech   Member 3</div>
-                                                </div>                                        
-                                            </li> -->
-                                            <li class="list-group-item  w-50 d-flex justify-content-between align-items-start">
-                                                <div class="ms-2  me-auto">
-                                                    <div class="fw-bold">Yazhini E</div>
-                                                </div>                                        
-                                            </li>
-
-                                        </ol>
-                                     </div>
-                                     <!-- end of non tech -->
                                 </div>
-
-                                <!-- end of core members list -->
+                                <!--- End Of Team List -->
                             </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -621,9 +501,6 @@
            
 <!-- <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a> -->
 
-            <script>
-                AOS.init();
-              </script>
     </body>
 </html>
 <!-- {"mode":"full","isActive":false} -->

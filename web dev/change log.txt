@@ -60,3 +60,6 @@ Junior team contents were added,but names has to be modified
 ---------
 log 7
 resolved Navbar action issue 
+Added Gallery and images
+Changed navbar hover color, and removed the odd underline
+changed color to "key to" in jumbotron

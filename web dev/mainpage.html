@@ -16,6 +16,7 @@
         <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -24,11 +25,11 @@
         <script src="script.js"></script>
         <script src="rocketjs.js"></script>
         <script src="nav_color.js"></script>
+        <script src="main.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     </head>
 <!-- NAVBAR cum HOME -->
@@ -49,6 +50,7 @@
                             <li class="nav-item nav-link"><a class="nav-link" href="#legacy" >Legacy</a></li>
                             <li class="nav-item nav-link"><a class="nav-link" href="#events">Events</a></li>
                             <li class="nav-item nav-link"><a class="nav-link" href="#teams">Teams</a></li>
+                            <li class="nav-item nav-link"><a class="nav-link" href="#gallery">Gallery</a></li>
                             <li class="nav-item nav-link"><a class="nav-link" href="#contact">Contact us</a></li>
                         </ul>
                     </div>
@@ -236,7 +238,7 @@
                                                 <div class="card-header">Team Heads</div>
                                                 <div class="card-body">
                                                     <p class="card-text">Venkatesh P.R. (Tech)</p>
-                                                    <p class="card-text">Jayaparvathi Ramesh (Non-Tech)</p>
+                                                    <p class="card-text">Jayaparvathi Ramesh(Non-Tech)</p>
                                                 </div>                                  
                                             </div>
                                         </div>
@@ -310,7 +312,7 @@
                                                 <div class="card-header"> Tech </div>
                                                 <div class="card-body">
                                                     <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li>Adarsh</li>
+                                                        <li>Adarsh Kumar</li>
                                                         <li>Ankireddypalli Naga Sindhuri</li>
                                                         <li>Chris Rohan M</li>
                                                         <li>Devata Indumathi</li>
@@ -360,6 +362,7 @@
                                                         <ul style="list-style-type:none;margin: 0;  padding: 0;">
                                                             <li>Maheshwari</li>
                                                             <li>Tulasidass</li>
+                                                            <li>Sharumathi R. B</li>
                                                         </ul>
                                                     </div> 
                                                 </div>
@@ -369,9 +372,9 @@
                                                     <div class="card-header"> Web Development </div>
                                                     <div class="card-body">
                                                         <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                            <li>Narayanan</li>
+                                                            <li>Narayanan B</li>
                                                             <li>Srijith Bharadwaj</li>
-                                                            <li> G.Abishek Sriram</li>
+                                                            <li> G.Abishek Sriram</li>                                                        
                                                         </ul>
                                                     </div> 
                                                 </div>
@@ -522,7 +525,57 @@
 
 <!-- end of temporary contact us -->
 
-
+<!-- GALEERY -->
+<section class="text-center content-section" id="gallery" style="padding:2%;margin:2%;">
+    <div class="container">
+        <div class="row">
+            <h2> GALLERY </h2>
+            <hr>
+            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/1.JPG" class=" responsive" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/2.JPG" class=" responsive" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/3.JPG" class=" responsive" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+                    
+        </div>
+     
+</section>
+<!-- end of gallery -->
 <button    type="button"      class="btn btn-floating btn-lg"  id="btn-back-to-tops">
     <img src="rocket.png" width="40">
 </button>

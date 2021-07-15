@@ -48,3 +48,10 @@ https://github.com/michalsnik/aos/issues/42
  added faculty coordinator column,
  added infinity symbol in the front jumbotron instead of text.
  changed some corrections in names in Team list
+
+----------
+log 6
+Added effects for currently active navbar item
+resolved JS error:in teams elemnet: junior tab went null since, web  was replaced with Junior, 
+                  contents was not changed, hence it was resolved.
+Junior team contents were added,but names has to be modified

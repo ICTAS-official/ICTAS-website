@@ -23,7 +23,7 @@ function changeMemberList(n)
         document.getElementById(currentActive).className=document.getElementById(currentActive).className+"active";
         document.getElementById("m-coordinator").hidden=false;
         document.getElementById("m-core").hidden=true;
-        document.getElementById("m-web").hidden=true;
+        document.getElementById("m-junior").hidden=true;
     }
     if(n==2)
     {
@@ -32,16 +32,16 @@ function changeMemberList(n)
         document.getElementById(currentActive).className=document.getElementById(currentActive).className+" active";
         document.getElementById("m-coordinator").hidden=true;
         document.getElementById("m-core").hidden=false;
-        document.getElementById("m-web").hidden=true;
+        document.getElementById("m-junior").hidden=true;
     }
     if(n==3)
     {
         document.getElementById(currentActive).className=  String(document.getElementById(currentActive).className).replace("active","");
-        currentActive="filter-web";
+        currentActive="filter-junior";
         document.getElementById(currentActive).className=document.getElementById(currentActive).className+" active";
         document.getElementById("m-coordinator").hidden=true;
         document.getElementById("m-core").hidden=true;
-        document.getElementById("m-web").hidden=false;
+        document.getElementById("m-junior").hidden=false;
     }
 }
 

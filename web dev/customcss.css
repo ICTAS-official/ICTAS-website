@@ -57,14 +57,20 @@ nav {
   /* border-radius: 5.5rem; */
   /* box-shadow: -5px 0 transparent; */
 }
-.nav-link a:hover
+/* .nav-link a:hover
 {
   border-bottom: 2px solid aliceblue;
-}
+} */
 .navbar-nav{
   border-bottom: 1px solid darkblue;
 }
 
+ .active{
+  border-bottom: 2px solid red ;
+}
+.menu-center li:hover{
+  border-bottom: 2px solid white ;
+}
 
 /* infinity design */
 

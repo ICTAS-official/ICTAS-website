@@ -63,3 +63,14 @@ resolved Navbar action issue
 Added Gallery and images
 Changed navbar hover color, and removed the odd underline
 changed color to "key to" in jumbotron
+
+
+
+///upcoming changes
+problem: 2 jquery error
+gallery cropp problem
+avatar profile new team
+rocket problem
+events -> main events  tech: Coding, Paper presentation, Puzzles & crosswords
+                        non-tech: shipwreck, Virtual Interview, Fun wheel, 
+                        Gaming: CS-go, Valerent, mobile games

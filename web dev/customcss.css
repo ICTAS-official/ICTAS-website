@@ -61,12 +61,12 @@ nav {
 {
   border-bottom: 2px solid aliceblue;
 } */
-.navbar-nav{
-  border-bottom: 1px solid darkblue;
-}
+/* .navbar-nav{
+   border-bottom: 1px solid darkblue;
+} */
 
- .active{
-  border-bottom: 2px solid red ;
+ #navbarResponsive .active{
+  border-bottom: 2px solid black ;
 }
 .menu-center li:hover{
   border-bottom: 2px solid white ;
@@ -270,8 +270,8 @@ section{
 
 .details {
   font-size: 40px;
-  font-family: 'Acme';
-  color: #5C33F6;
+  font-family: 'Nunito', sans-serif;;
+  color: ghostwhite;
 }
 
 /*----------------------------------------------------------------------
@@ -420,6 +420,28 @@ color: white;
   }
 }
 
+
+ /* --------------------------------------------
+ gallery
+-----------------------------------------------
+ */
+
+ .carousel-item img{
+   height: 500px;
+   width: auto;
+   border: 10px solid #fff;
+ }
+.carousel-caption {
+  background-color:#5f98da; 
+  opacity: 0.8;
+  color: #fff;
+}
+
+
+ /* 
+ ------------------------
+ end of gallery
+ ------------------- */
 /* this code is for rocket (back to top) design 2  button which is  not working*/
   /* #scrolltop {
     display: none;

@@ -39,3 +39,12 @@ https://github.com/michalsnik/aos/issues/42
  added footer color and changed the color scheme
  changed team member codes and adding necessary blocks for all members
  
+
+ ---------
+ 15-jul-2021
+ log 5
+ Changed navbar hover
+ commented the no longer used in between team JS codes.
+ added faculty coordinator column,
+ added infinity symbol in the front jumbotron instead of text.
+ changed some corrections in names in Team list

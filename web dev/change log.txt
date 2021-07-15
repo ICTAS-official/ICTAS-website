@@ -55,3 +55,8 @@ Added effects for currently active navbar item
 resolved JS error:in teams elemnet: junior tab went null since, web  was replaced with Junior, 
                   contents was not changed, hence it was resolved.
 Junior team contents were added,but names has to be modified
+
+
+---------
+log 7
+resolved Navbar action issue 

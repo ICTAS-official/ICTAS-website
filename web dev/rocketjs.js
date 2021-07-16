@@ -4,19 +4,6 @@ $(document).ready(function(){
     {
 
         $(".rocket").css("visibility","hidden");
-
-      // if ($(".rocket").css("bottom","0px")) {
-      //   $(".rocket").css("visibility","hidden");
-      // }
-      // $(function(){
-
-     // $(".rocket").slideDown(800, function(){
-     //   setTimeout(function()
-     //   {
-     //     $(".rocket").css("visibility","hidden");
-     //   }, 1000);
-     // });
-   // });
     }
 
     else

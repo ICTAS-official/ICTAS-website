@@ -72,6 +72,16 @@ changed the name of gallery(in the section) to SHOWCASE
 
 
 
+--------
+log 9
+solved console errors and changed 'a[href*=#]' to 'a[href*=\\#]'
+
+
+-------
+resolve log 9a
+change was reverted
+
+
 
 
 

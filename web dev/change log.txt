@@ -65,9 +65,19 @@ Changed navbar hover color, and removed the odd underline
 changed color to "key to" in jumbotron
 
 
+---------
+log 8
+resolved image gallery crop problem
+changed the name of gallery(in the section) to SHOWCASE
+
+
+
+
+
 
 ///upcoming changes
 problem: 2 jquery error
+navbar toggle problem
 gallery cropp problem
 avatar profile new team
 rocket problem

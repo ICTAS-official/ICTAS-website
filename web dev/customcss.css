@@ -33,6 +33,9 @@ h4{
 /* nav bar customisation */
 nav {
   visibility: hidden;
+  opacity: 0.8;
+  z-index: 1;
+  
 }
 
 .navbar-brand
@@ -56,6 +59,28 @@ nav {
   border-bottom: 2px solid transparent;
   /* border-radius: 5.5rem; */
   /* box-shadow: -5px 0 transparent; */
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  #navbarResponsive2
+  {
+    visibility: visible;
+  }
+  #navbarResponsive1
+  {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 701px)  {
+  #navbarResponsive2
+  {
+    visibility: hidden;
+  }
+  #navbarResponsive1
+  {
+    visibility: visible;
+  }
 }
 /* .nav-link a:hover
 {
@@ -216,6 +241,7 @@ p:after {
 #end of #teams
 ----------------------------------------------------------------------*/
 section{
+ 
   width: 100%;
   min-height:700px;
   /* height: 100%; */
@@ -427,8 +453,9 @@ color: white;
  */
 
  .carousel-item img{
-   height: 500px;
+   height: 600px;
    width: auto;
+   max-width: 100%;
    border: 10px solid #fff;
  }
 .carousel-caption {
@@ -436,7 +463,22 @@ color: white;
   opacity: 0.8;
   color: #fff;
 }
-
+@media only screen and (min-width: 400px) and (max-width: 508px) {
+  .carousel-item img{
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .carousel-item img{
+    height: 380px;
+    width: auto;
+    max-width: 100%;
+    
+  }
+}
 
  /* 
  ------------------------

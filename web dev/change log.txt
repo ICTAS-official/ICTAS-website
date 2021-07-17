@@ -91,6 +91,33 @@ removed <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootst
 bundle cdn link was removed to solve the issue 
 
 
+-------
+17/Jul/2021
+log 11
+
+added  code for collapsing navbar when the element is clicked : code in script.js
+extra whitespace was removed from legacy card structure.(commented .row_l)
+legacy card overlap error was resolved for mobile view (added )
+rocket code: for back to top was integrated, but still page is not scrolling up: review sent to Junior for resolving
+Navbar color was set to gradient to solve text unreadable error & extra margin-top added to the .container_org h2 to make the header visible on nav bar click scroll
+(for nav bar removed classes:navbar-light bg-light      added background-image for gradient in customcss.css)
+Teams extra whitespace was removed by altering inline css: min-height to 500px from 900px.
+previously coded responsive navbar with mobile icon mediaquery code, which was no longer required is commented
+added  inline css margin-top to infinity icon in jumbotron, and added space &nbsp; for space between line.
+newly added navbar_background.js was removed, which was no longer required(commented)
+
+
+rocket code: pull request:
+// HTML- Placed rocket code in specific position (commented as rocket code)
+// Removed btn-back-to-tops button
+// Placed script tags at the end of body tag
+// CSS- Removed btn-back-to-tops button
+// rocket.js- Added rocket functionality
+
+
+
+
+
 
 
 

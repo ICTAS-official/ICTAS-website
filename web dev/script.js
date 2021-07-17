@@ -45,6 +45,12 @@ function changeMemberList(n)
     }
 }
 
+
+// code for collapsing navbar when the element is clicked
+$('.nav-link').on('click',function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
 // var currentTeam="filter-tech";
 // function changeTeamList(n)
 // {

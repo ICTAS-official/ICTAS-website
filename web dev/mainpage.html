@@ -21,10 +21,10 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <link rel="stylesheet" href="customcss.css">
  
-        <script src="script.js"></script>
-        <script src="rocketjs.js"></script>
+       
         <script src="nav_color.js"></script>
         <script src="main.js"></script>
+        <script src="navbar_background.js"> </script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <div class="loader-wrapper">
                 <span class="loader"><span class="loader-inner"></span></span>
             </div>
-            <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-light bg-light navigation" id="mainNav" >
+            <nav class="navbar   navbar-expand-md fixed-top   navigation" id="mainNav" style="background-color: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);">
                 <div class="container">
                     <a class="navbar-brand" href="#">ICT@S</a>
                     <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu">
@@ -45,10 +45,11 @@
                     <div class="collapse navbar-collapse menu-center" id="navbarResponsive">
                        
                         <ul class="navbar-nav ms-auto">
+                            <!-- data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" -->
                             <!-- <li class="nav-item nav-link"><a class="nav-link active" href="#home">Home</a></li> -->
-                            <li class="nav-item "><a class="nav-link" href="#about">About</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#legacy">Legacy</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#events">Events</a></li>
+                            <li class="nav-item "><a class="nav-link" href="#about" >About</a></li>
+                            <li class="nav-item "><a class="nav-link" href="#legacy" >Legacy</a></li>
+                            <li class="nav-item "><a class="nav-link" href="#events" >Events</a></li>
                             <li class="nav-item "><a class="nav-link" href="#teams">Teams</a></li>
                             <li class="nav-item "><a class="nav-link" href="#gallery">Gallery</a></li>
                             <li class="nav-item "><a class="nav-link" href="#contact">Contact us</a></li>
@@ -80,7 +81,12 @@
                 </div>
               </nav> -->
 
-
+          <!-- ROCKET CODE  START -->
+         
+         
+          <input type="image" class="rocket" src="rocket.png" id="rock">
+         
+          <!-- ROCKET CODE ENDS -->
 
 
 
@@ -90,7 +96,7 @@
                         <h1 class="org_name" data-aos="zoom-in" data-aos-duration="1000">ICT@S</h1>
                         <h3 class="details text-center align-item-center" data-aos="zoom-out-up" data-aos-delay="1000" data-aos-duration="1000">Key To </h3>
                        
-                       <h2><img src="infy.png"></h2>
+                       <h2 style="margin-top: -50px;">&nbsp; <img src="infy.png">&nbsp; </h2> 
 
                         <a class="ct-btn-scroll" href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000" data-aos-anchor-placement="top-center"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
                 </div>
@@ -228,7 +234,7 @@
                     <div class="row" >
                         <h2>Current ICTAS Team</h2>
                         <hr>
-                        <div class="col-lg-8 mx-auto" style="min-height: 900px;">
+                        <div class="col-lg-8 mx-auto" style="min-height: 500px;">
                         <!-- Role Taba -->
                             <div class="row" data-aos="fade-up" data-aos-delay="100">
                                 <div class="col-lg-12 d-flex justify-content-center">
@@ -681,9 +687,16 @@
   </footer>
            
 <!-- <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a> -->
-<button    type="button"      class="btn btn-floating btn-lg"  id="btn-back-to-tops">
+<!-- <button    type="button"      class="btn btn-floating btn-lg"  id="btn-back-to-tops">
     <img src="rocket.png" width="40">
-</button>
+</button> -->
+
+
+
+
+<script src="script.js"></script>
+<script src="rocketjs.js"></script>
+<!-- <script>AOS.init();</script> -->
     </body>
 </html>
 <!-- {"mode":"full","isActive":false} -->

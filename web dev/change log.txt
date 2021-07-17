@@ -117,7 +117,16 @@ Resolved out of bounds text in events tab : adjusting height for card to 400px
 Resolved unclosed div tag problem :removed extra code
 Resolved mobile view navbar toggler collapse on click not working error:Added the JS inside HTML file As SCRIPT tag
 
+---------
+17/Jul/2021
 
+Log 13
+Restructured css and js into separate folders and renamed them to universal convention.
+  - accordingly changed the import statement as well
+added comments to head tag.
+added title and title bar icon
+----
+Missed log in LOG 13 : Changed incorrect Head name in About section
 
 
 

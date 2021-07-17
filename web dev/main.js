@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $(this).scrollTop(0);
+});
+
 $(window).on("load", function() {
     setTimeout(function() { $('.loader-wrapper').fadeOut('slow'); }, 0);
     setTimeout(function() { AOS.init(); }, 0);

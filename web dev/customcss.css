@@ -1,5 +1,6 @@
 /* to solve right space problem */
 
+html,
 body {
     overflow-y: auto;
     overflow-x: hidden;
@@ -291,6 +292,10 @@ section {
     border-radius: 50%;
     -webkit-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
+}
+
+.ct-btn-scroll-img:hover {
+    transform: scale(1.1);
 }
 
 */

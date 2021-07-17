@@ -1,0 +1,105 @@
+
+<!-- 
+problem solution
+extra left whitespace:
+(solution with 48 upvotes or nearer)
+in css added
+html, body { overflow-x: hidden; }
+source link:
+https://stackoverflow.com/questions/16704893/twitter-bootstrap-white-gap-on-right-side-of-page
+
+aos set attribute problem:
+moved following code from <head>
+    to previous line of </body>
+------
+   <script>
+                AOS.init();
+              </script>
+--------
+https://github.com/michalsnik/aos/issues/42
+
+
+
+ -->
+
+ <--
+
+ Log 2 :
+ Problem : Double scroll bar 
+ Solution:Commented the extra two <section> tags at every section since it was taking up extra spaces for each section.
+
+ log 3:
+ changed footer with design taken(part of design)
+ https://mdbootstrap.com/snippets/jquery/temp/3189739?action=prism_export#html-tab-view
+
+
+ log 4:
+ changed inline css to customcss.css
+ added appropriate comments to the code
+ added footer color and changed the color scheme
+ changed team member codes and adding necessary blocks for all members
+ 
+
+ ---------
+ 15-jul-2021
+ log 5
+ Changed navbar hover
+ commented the no longer used in between team JS codes.
+ added faculty coordinator column,
+ added infinity symbol in the front jumbotron instead of text.
+ changed some corrections in names in Team list
+
+----------
+log 6
+Added effects for currently active navbar item
+resolved JS error:in teams elemnet: junior tab went null since, web  was replaced with Junior, 
+                  contents was not changed, hence it was resolved.
+Junior team contents were added,but names has to be modified
+
+
+---------
+log 7
+resolved Navbar action issue 
+Added Gallery and images
+Changed navbar hover color, and removed the odd underline
+changed color to "key to" in jumbotron
+
+
+---------
+log 8
+resolved image gallery crop problem
+changed the name of gallery(in the section) to SHOWCASE
+
+
+
+--------
+log 9
+solved console errors and changed 'a[href*=#]' to 'a[href*=\\#]'
+
+
+-------
+resolve log 9a
+change was reverted
+
+
+
+
+--------
+log 10
+nav bar toogler problem resolved 
+removed <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+bundle cdn link was removed to solve the issue 
+
+
+
+
+
+///upcoming changes
+problem: 2 jquery error
+navbar toggle problem
+gallery cropp problem
+avatar profile new team
+rocket problem
+events -> main events  tech: Coding, Paper presentation, Puzzles & crosswords
+                        non-tech: shipwreck, Virtual Interview, Fun wheel, 
+                        Gaming: CS-go, Valerent, mobile games

@@ -1,759 +1,656 @@
 <html>
-    <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-       
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <link rel="stylesheet" href="customcss.css">
- 
-       
-        <script src="nav_color.js"></script>
-        <script src="main.js"></script>
-        <script src="navbar_background.js"> </script>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
-    </head>
+    <!-- Required Includes -->
+    <link rel="stylesheet" href="customcss.css">
+    <script src="main.js"></script>
+</head>
 <!-- NAVBAR cum HOME -->
-    <body class="bodyback">
-            <div class="loader-wrapper">
-                <span class="loader"><span class="loader-inner"></span></span>
+
+<body class="bodyback">
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <nav class="navbar   navbar-expand-md fixed-top   navigation" id="mainNav"
+        style="background-color: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);">
+        <div class="container">
+            <a class="navbar-brand" href="#">ICT@S</a>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation" value="Menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse menu-center" id="navbarResponsive">
+
+                <ul class="navbar-nav ms-auto">
+                    <!-- data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" -->
+                    <!-- <li class="nav-item nav-link"><a class="nav-link active" href="#home">Home</a></li> -->
+                    <li class="nav-item "><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#legacy">Legacy</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#teams">Teams</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#contact">Contact us</a></li>
+                </ul>
+
             </div>
-            <nav class="navbar   navbar-expand-md fixed-top   navigation" id="mainNav" style="background-color: linear-gradient(141deg, #07866056 0%, #1fc8db 51%, #5f98da 75%);">
-                <div class="container">
-                    <a class="navbar-brand" href="#">ICT@S</a>
-                    <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse menu-center" id="navbarResponsive">
-                       
-                        <ul class="navbar-nav ms-auto">
-                            <!-- data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" -->
-                            <!-- <li class="nav-item nav-link"><a class="nav-link active" href="#home">Home</a></li> -->
-                            <li class="nav-item "><a class="nav-link" href="#about" >About</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#legacy" >Legacy</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#events" >Events</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#teams">Teams</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#gallery">Gallery</a></li>
-                            <li class="nav-item "><a class="nav-link" href="#contact">Contact us</a></li>
-                        </ul>
-                        
+
+        </div>
+    </nav> <br>
+
+    <section class="text-center content-section" id="home">
+        <div class="container_org">
+            <h1 class="org_name" data-aos="zoom-in" data-aos-duration="1000">ICT@S</h1>
+            <h3 class="details text-center align-item-center" data-aos="zoom-out-up" data-aos-delay="1000"
+                data-aos-duration="1000">Key To </h3>
+
+            <h2 style="margin-top: -50px;">&nbsp; <img src="assets/images/infy.png">&nbsp; </h2>
+
+            <a class="ct-btn-scroll" href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000"
+                data-aos-anchor-placement="top-center"><img alt="Arrow Down Icon"
+                    src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+        </div>
+    </section>
+    <!-- end of navbar -->
+
+    <!-- #about -->
+    <section class="text-center content-section" id="about" style="padding:2%;margin-bottom:2%;">
+        <div class="container" data-aos="fade-down">
+            <div class="row">
+                <h2>ABOUT </h2>
+                <hr width="50%">
+                <div class="col-lg-8 mx-auto" style="font-size: larger;">
+                    <article>
+                        <h3>
+                            ICT Department in SASTRA
+                        </h3>
+                        <p> In 2006 , B.Tech program in Information & Communication Technology was Introduced in SASTRA.
+                            This B.Tech. programme is a proper blend of communication engineering and Information
+                            Technology.
+                        </p>
+                        <h3>
+                            ICT@S
+                        </h3>
+                        <p> ICT@S (Information and Communication Technology @ SASTRA) was established in the year 2010.
+
+                            The association is headed by Dr.K.S.Ravichandran and is run by the elected board
+                            members.Throughout the year,
+
+                            ICT@S conducts a plethora of events which engages the smartest minds across the university.
+                            ICTAS is not just another event, but it is a platform to develop skills and also to help to
+                            juniors in different aspects as well
+                        </p>
+                        <h3>
+                            Tech Carnival
+                        </h3>
+                        <p>
+                            Tech Carnival has a plethora of competitions from a variety of streams- technical,
+                            Communication,
+
+                            management and fun events thereby attracting students from different fields.
+                        </p>
+
+
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end of #about -->
+
+    <!-- #legacy -->
+    <section class="text-center content-section" id="legacy" style="padding:2%;margin:2%;">
+        <div class="container" data-aos="flip-left">
+            <div class="row">
+                <h2> OUR LEGACY </h2>
+                <hr>
+                <p class="align-center">Previous Editions of ICT@S Tech Carnival </p>
+                <br>
+                <br>
+                <div class="row row_l">
+                    <div class="col">
+                        <a href="https://www.sites.google.com/view/ictas2k20" target="_blank"
+                            style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 9.0</div>
+                                <div class="card-body">Feb 16, 2020</div>
+                            </div>
+                        </a>
                     </div>
-
+                    <div class="col">
+                        <a href="#" target="_blank" style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 8.0</div>
+                                <div class="card-body">Feb, 2019</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.sastra.edu/techcarnival18/" target="_blank" style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 7.0</div>
+                                <div class="card-body">Jan 21st, 2018</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </nav>  <br>
-
-            <section class="text-center content-section" id="home">
-                <div class="container_org">
-                        <h1 class="org_name" data-aos="zoom-in" data-aos-duration="1000">ICT@S</h1>
-                        <h3 class="details text-center align-item-center" data-aos="zoom-out-up" data-aos-delay="1000" data-aos-duration="1000">Key To </h3>
-                       
-                       <h2 style="margin-top: -50px;">&nbsp; <img src="infy.png">&nbsp; </h2> 
-
-                        <a class="ct-btn-scroll" href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000" data-aos-anchor-placement="top-center"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+                <div class="row row_l">
+                    <div class="col">
+                        <a href="https://www.sastra.edu/ictas2k17/hme2.html" target="_blank"
+                            style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 6.0</div>
+                                <div class="card-body">Jan 7th, 2017</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.sastra.edu/techcarnival16/" target="_blank" style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 5.0</div>
+                                <div class="card-body">Jan 3rd, 2016</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.sastra.edu/techcarnival4/" target="_blank" style="text-decoration: none">
+                            <div class="card ms-2 legacy">
+                                <div class="card-header card-header_l">Tech Carnival 4.0</div>
+                                <div class="card-body">April 4 & 5, 2015</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </section>
-<!-- end of navbar -->
+            </div>
+        </div>
+        </div>
 
-<!-- #about -->
-            <section class="text-center content-section" id="about" style="padding:2%;margin-bottom:2%;">
-                <div class="container" data-aos="fade-down">
-                    <div class="row">
-                        <h2>ABOUT </h2>
-                        <hr width="50%"> 
-                        <div class="col-lg-8 mx-auto" style="font-size: larger;">
-                            <article>
-                                <h3>
-                                    ICT Department in SASTRA
-                                </h3>
-                                <p> In 2006 , B.Tech program  in Information & Communication Technology was Introduced in SASTRA.
-                                    This B.Tech. programme is a proper blend of communication engineering and Information Technology.
-                                </p>
-                                <h3>
-                                   ICT@S
-                                </h3>
-                                <p> ICT@S (Information and Communication Technology @ SASTRA) was established in the year 2010.
-                
-                                    The association is headed by Dr.K.S.Ravichandran and is run by the elected board members.Throughout the year,
-                                    
-                                    ICT@S conducts a plethora of events which engages the smartest minds across the university.
-                                    ICTAS is not just another event, but it is a platform to develop skills and also to help to juniors in different aspects as well
-                                </p>
-                                <h3>
-                                    Tech Carnival
-                                </h3>
-                                <p> 
-                                    Tech Carnival has a plethora of competitions from a variety of streams- technical, Communication,
-                                    
-                                    management and fun events thereby attracting students from different fields.
-                                </p>
-                                  
-                               
-                              </article>
+    </section>
+    <!-- end of #legacy -->
+
+    <!-- #events -->
+    <section class="text-center content-section" id="events" style="padding:2%;margin:2%;">
+        <div class="container">
+            <div class="row">
+                <h2> EVENTS </h2>
+                <hr>
+                <div class="col-lg-8 mx-auto">
+                    <!-- Event Types -->
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="members">
+                                <li id="filter-tech" class="x active" onclick="changeEventList(1)">Technical</li>
+                                <li id="filter-fun" class="x " onclick="changeEventList(2)">Non-Technical</li>
+                                <li id="filter-gaming" class="x" onclick="changeEventList(3)">Gaming</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                
-            </section>
-<!-- end of #about -->
 
-<!-- #legacy -->
-            <section class="text-center content-section" id="legacy" style="padding:2%;margin:2%;">
-                <div class="container" data-aos="flip-left">
-                    <div class="row">
-                        <h2> OUR LEGACY </h2>
-                        <hr>
-                        <p class="align-center">Previous Editions of ICT@S Tech Carnival </p>
-                        <br>
-                        <br>
-                        <div class="row row_l">
-                            <div class="col">
-                                <a href="https://www.sites.google.com/view/ictas2k20" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 9.0</div>
-                                        <div class="card-body">Feb 16, 2020</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col">
-                                 <a href="#" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 8.0</div>
-                                        <div class="card-body">Feb, 2019</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.sastra.edu/techcarnival18/" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 7.0</div>
-                                        <div class="card-body">Jan 21st, 2018</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row row_l">
-                            <div class="col">
-                                <a href="https://www.sastra.edu/ictas2k17/hme2.html" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 6.0</div>
-                                        <div class="card-body">Jan 7th, 2017</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.sastra.edu/techcarnival16/" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 5.0</div>
-                                        <div class="card-body">Jan 3rd, 2016</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="http://www.sastra.edu/techcarnival4/" target="_blank" style="text-decoration: none">
-                                    <div class="card ms-2 legacy">
-                                        <div class="card-header card-header_l">Tech Carnival 4.0</div>
-                                        <div class="card-body">April 4 & 5, 2015</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                
-            </section>
-<!-- end of #legacy -->
+                    <!-- End of event types -->
 
-<!-- #events -->
-            <section class="text-center content-section" id="events"  style="padding:2%;margin:2%;">
-                <div class="container">
-                    <div class="row">
-                        <h2> EVENTS </h2>
-                        <hr>
-                        <div class="col-lg-8 mx-auto">
-                            <!-- Event Types -->
-                            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                                <div class="col-lg-12 d-flex justify-content-center">
-                                  <ul id="members">
-                                    <li  id="filter-tech" class="x active"  onclick="changeEventList(1)">Technical</li>
-                                    <li id="filter-fun" class="x "  onclick="changeEventList(2)">Non-Technical</li>
-                                    <li id="filter-gaming" class="x"  onclick="changeEventList(3)">Gaming</li>
-                                  </ul>
+                    <!-- Technical Events -->
+                    <div class="row" data-aos="flip-right">
+                        <div class="event-tech" id="m-tech">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/coding.png" alt="Coding">
+                                        <div class="card-header">Coding</div>
+                                        <div class="card-body">Forget but Lets do,if & for while brackets are our limits
+                                            and semicolon the destiny.</div>
+                                    </div>
                                 </div>
-                            </div>
-
-                        <!-- End of event types -->
-
-                        <!-- Technical Events -->
-                        <div class="row" data-aos="flip-right">
-                            <div class="event-tech" id="m-tech">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/coding.png" alt="Coding">
-                                            <div class="card-header">Coding</div>
-                                            <div class="card-body">Forget but Lets do,if & for while brackets are our limits and semicolon the destiny.</div>
-                                        </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/paper_presentation.png"
+                                            alt="Paper Presentation" style="width: contain;">
+                                        <div class="card-header">Paper Presentation</div>
+                                        <div class="card-body">Showcase the evolution of the innovation and creative
+                                            ideas.</div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/paper_presentation.png" alt="Paper Presentation" style="width: contain;">
-                                            <div class="card-header">Paper Presentation</div>
-                                            <div class="card-body">Showcase the evolution of the innovation and creative ideas.</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/puzzles.jpg" alt="Puzzles" style="width: contain">
-                                            <div class="card-header">Puzzles & Crosswords</div>
-                                            <div class="card-body">A wizard in the land of mazes</div>
-                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/puzzles.jpg" alt="Puzzles"
+                                            style="width: contain">
+                                        <div class="card-header">Puzzles & Crosswords</div>
+                                        <div class="card-body">A wizard in the land of mazes</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Non-Technical Events -->
-                        <div class="row" data-aos="flip-right" hidden>
-                            <div class="event-fun" id="m-fun">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/shipwreck.jpg" alt="ShipWreck">
-                                            <div class="card-header">Ship Wrek</div>
-                                            <div class="card-body">Sink into the character and let others know why you should live!</div>
-                                        </div>
+                        <div class="event-fun" id="m-fun" hidden>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/shipwreck.jpg" alt="ShipWreck">
+                                        <div class="card-header">Ship Wrek</div>
+                                        <div class="card-body">Sink into the character and let others know why you
+                                            should live!</div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/virtual_interview.png" alt="Virtual Interview" style="width: contain;">
-                                            <div class="card-header">Virtual Interview</div>
-                                            <div class="card-body">Get ready, you are gonna be judged.</div>
-                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/virtual_interview.jpg"
+                                            alt="Virtual Interview" style="width: contain;">
+                                        <div class="card-header">Virtual Interview</div>
+                                        <div class="card-body">Get ready, you are gonna be judged.</div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/fun_wheel.jpg" alt="Puzzles" style="width: contain">
-                                            <div class="card-header">Fun Wheel</div>
-                                            <div class="card-body">A wheel of fortune awaits your spin!</div>
-                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/fun_wheel.jpg" alt="Puzzles"
+                                            style="width: contain">
+                                        <div class="card-header">Fun Wheel</div>
+                                        <div class="card-body">A wheel of fortune awaits your spin!</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Gaming Events -->
-                        <div class="row" data-aos="flip-right" hidden>
-                            <div class="event-gaming" id="m-gaming">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/bgmi.jpg" alt="BGMI">
-                                            <div class="card-header">BattleGrounds Mobile India</div>
-                                            <div class="card-body">The Battlegrounds are waiting for you to be spawned.</div>
+                        <div class="event-gaming" id="m-gaming" hidden>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/bgmi.jpg" alt="BGMI">
+                                        <div class="card-header">BattleGrounds Mobile India</div>
+                                        <div class="card-body">The Battlegrounds are waiting for you to be spawned.
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/valorant.png" alt="Valorant" style="width: contain;">
-                                            <div class="card-header">Valorant</div>
-                                            <div class="card-body">Switch on your PC, grenades aren't going to wait.</div>
-                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/valorant.jpg" alt="Valorant"
+                                            style="width: contain;">
+                                        <div class="card-header">Valorant</div>
+                                        <div class="card-body">Switch on your PC, grenades aren't going to wait.</div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="card">
-                                            <img class="card-img-top" src="assets/images/games.jpg" alt="Puzzles" style="width: contain">
-                                            <div class="card-header">And Lot more!</div>
-                                            <div class="card-body">You tell us! We organize. The list doesn't end here.</div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="assets/images/games.jpg" alt="Puzzles"
+                                            style="width: contain">
+                                        <div class="card-header">And Lot more!</div>
+                                        <div class="card-body">You tell us! We organize. The list doesn't end here.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        </div>
                     </div>
                 </div>
-                
-            </section>
-<!-- end of #events -->
-
-<!-- #teams -->
-            <div class="text-center content-section" id="teams" style="padding:2%;margin:2%;" >
-                <div class="container">
-                    <div class="row" >
-                        <h2>Current ICTAS Team</h2>
-                        <hr>
-                        <div class="col-lg-8 mx-auto" style="min-height: 500px;">
-                        <!-- Role Taba -->
-                            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                                <div class="col-lg-12 d-flex justify-content-center">
-                                  <ul id="members">
-                                    <li  id="filter-coordinators" class="x active"  onclick="changeMemberList(1)">Coordinators</li>
-                                    <li id="filter-core" class="x "  onclick="changeMemberList(2)">Core Team Members</li>
-                                    <li id="filter-junior" class="x"  onclick="changeMemberList(3)">Junior Team</li>
-                                  </ul>
-                                </div>
-                            </div>
-
-                        <!-- End of role taba -->
-
-                        <div class="row" data-aos="flip-right">
-                                <div class="member-coordinator" id="m-coordinator">
-                                    <h4>Coordinators</h4>
-                                    <div class="row">
-                                        <div class="col" data-aos="fade-down">
-                                            <div class="card ms-2">
-                                                <div class="card-header">Chairperson</div>
-                                                <div class="card-body">
-                                                    <p class="card-text">G.Abishek Sriram </p>
-                                                    <p class="card-text">Sharumathi R. B</p>
-                                                </div>                                  
-                                            </div>
-                                        </div>
-                                        <div class="col" data-aos="fade-down">
-                                            <div class="card ms-2">
-                                                <div class="card-header">Secretary</div>
-                                                <div class="card-body">
-                                                    <p class="card-text">Sai Srinivas</p>
-                                                </div>                                  
-                                            </div>
-                                            <div class="card ms-2">
-                                                <div class="card-header">Treasurer</div>
-                                                <div class="card-body">
-                                                    <p class="card-text">Deepthi</p>
-                                                </div>                                  
-                                            </div>
-                                        </div>
-                                        <div class="col" data-aos="fade-down">
-                                            <div class="card ms-2">
-                                                <div class="card-header">Team Heads</div>
-                                                <div class="card-body">
-                                                    <p class="card-text">Venkatesh P.R. (Tech)</p>
-                                                    <p class="card-text">Jayaparvathi Ramesh(Non-Tech)</p>
-                                                </div>                                  
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <!-- faculty coordinator -->
-                                        <div class="col" data-aos="fade-down">
-                                            <div class="card">
-                                                <div class="card-header">Faculty Coordinator </div>
-                                                <div class="card-body">
-                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li> Prof. Vijay Sai R</li>
-                                                        <li>Faculty</li>
-                                                        <li>ICT, School of Computing</li>
-                                                    </ul>
-                                                </div> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                 
-                                    <!-- <ol class="list-group list-group-numbered" >
-
-                                        
-                                        <li class="list-group-item d-flex  align-items-center">
-                                            <div class="ms-2 me-auto">
-                                                <div class="fw-bold">Coordinators 1</div>                                           
-                                            </div>
-                                        <span class="badge bg-primary rounded-pill">CM1</span>
-                                        </li>
-                                      
-                                        <li class="list-group-item d-flex  align-items-start">
-                                            <div class="ms-2 me-auto">
-                                                <div class="fw-bold">Coordinators 2 </div>
-                                            </div> 
-                                            <span class="badge bg-primary rounded-pill">CM2</span>                                       
-                                        </li>
-                                        
-                                        <li class="list-group-item d-flex  align-items-start">
-                                            <div class="ms-2 me-auto">
-                                                <div class="fw-bold">Coordinators 3</div>                                            
-                                            </div>    
-                                            <span class="badge bg-primary rounded-pill">Joint Secretary</span>                                    
-                                        </li>
-                                       
-                                        <li class="list-group-item d-flex  align-items-start">
-                                            <div class="ms-2 me-auto">
-                                                <div class="fw-bold">Coordinators 4</div>
-                                            </div>      
-                                            <span class="badge bg-primary rounded-pill">Treasurer</span>                                  
-                                        </li>
-                                    </ol> -->
-                            <!-- end of coordinator list -->
-
-                            <!-- web team list
-                                <div class="member-web" id="m-web" hidden>
-                                    <h4>Web Team</h4>
-                                    <ol class="list-group  align-items-center">
-                                        <li class="list-group-item w-50 d-flex justify-content-between text-center">
-                                            <div class="ms-2  me-auto " >
-                                                <div class="fw-bold" >Narayanan B  </div>
-                                            </div>
-                                                                            
-                                        </li>
-
-                                        <li class="list-group-item w-50 d-flex justify-content-between align-items-center">
-                                        <div class="ms-2  me-auto">
-                                            <div class="fw-bold">Srijith Bharadwaj D</div>                                    
-                                        </div>                                        
-                                        </li>
-
-                                        <li class="list-group-item  w-50 d-flex justify-content-between align-items-center">
-                                            <div class="ms-2  me-auto">
-                                                <div class="fw-bold">Web  Member 3</div>
-                                            </div>                                        
-                                        </li> 
-                                    </ol>
-                                </div>
-                             end of web team list -->
-
-                            <div class="member-core" id="m-core" hidden>
-                                    <h4>Core Team</h4>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="card">
-                                                <div class="card-header"> Tech </div>
-                                                <div class="card-body">
-                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li>Adarsh Kumar</li>
-                                                        <li>Ankireddypalli Naga Sindhuri</li>
-                                                        <li>Chris Rohan M</li>
-                                                        <li>Devata Indumathi</li>
-                                                        <li>Layamitra C.B.</li>
-                                                        <li>Midde Jaheer</li>
-                                                        <li>Narayanan B</li>
-                                                        <li>Parthiv Sai</li>
-                                                        <li>Srijith Bharadwaj D</li>
-                                                        <li>Vaikunth S</li>
-                                                        <li>Venkatesh P R</li>
-                                                        <li>Sai Shivani R</li>
-                                                    </ul>
-                                                </div>                                                
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="card">
-                                                <div class="card-header"> Non-Tech </div>
-                                                <div class="card-body">
-                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li>Anirudh Balaji</li>
-                                                        <li>Sreelahari Dindukurthi</li>
-                                                        <li>Girish M</li>
-                                                        <li>Guduru Charan Sai Chowdary</li>
-                                                        <li>Nithiya Shree U V</li>
-                                                        <li>Polireddy Pavani</li>
-                                                        <li>Megha Ponnuthurai</li>
-                                                        <li>J Priyadharsini</li>
-                                                        <li>Prranesh raj</li>
-                                                        <li>A.Rajasudharshana</li>
-                                                        <li>Roshini</li>
-                                                        <li>Saathwick V</li>
-                                                        <li>Sushmaa P</li>
-                                                        <li>Yazhini E</li>
-                                                        <li>Gunturu Vidya vasavi</li>
-                                                        <li>Jinka Sai Mounika</li>
-                                                        <li>Varshini B</li>
-                                                    </ul>
-                                                </div>                                      
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="row">
-                                                <div class="card">
-                                                    <div class="card-header"> Promotion </div>
-                                                    <div class="card-body">
-                                                        <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                            <li>Maheshwari</li>
-                                                            <li>Tulasidass</li>
-                                                            <li>Sharumathi R. B</li>
-                                                        </ul>
-                                                    </div> 
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="card">
-                                                    <div class="card-header"> Web Development </div>
-                                                    <div class="card-body">
-                                                        <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                            <li>Narayanan B</li>
-                                                            <li>Srijith Bharadwaj</li>
-                                                            <li> G.Abishek Sriram</li>                                                        
-                                                        </ul>
-                                                    </div> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--- End Of Team List -->
-
-
-                                <div class="member-junior" id="m-junior" hidden>
-                                    <h4>Core Team</h4>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="card">
-                                                <div class="card-header"> Tech </div>
-                                                <div class="card-body">
-                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li>Anuraadhashree M </li>
-                                                        <li>Charith Kapuluru</li>
-                                                        <li>Desu Tara Sasaank</li>
-                                                        <li>Gudi Vinay</li>
-                                                        <li>Habeebun Naseeha S</li>
-                                                        <li>Kavya B</li>
-                                                        <li>Mahesh Babu M</li>
-                                                        <li>Mohnish Srivats R</li>
-                                                        <li>Mounica S D</li>
-                                                        <li>Pranathi T</li>
-                                                        <li>Shashank H S R</li>
-                                                        <li>Vijayalakshmi</li>
-                                                    </ul>
-                                                </div>                                                
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="card">
-                                                <div class="card-header"> Non-Tech </div>
-                                                <div class="card-body">
-                                                    <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                        <li>Aparnaa R U</li>
-                                                        <li>Aliveli Haripriya</li>
-                                                        <li>Akula Dhodeepya Sree</li>
-                                                        <li>Balakumar S</li>
-                                                        <li>Dominic A</li>
-                                                        <li>Hari Krishna</li>
-                                                        <li>Mandala Puneeth Naidu</li>
-                                                        <li>Mudrakola Harshini</li>
-                                                        <li>Rishi Harini Badimela</li>
-                                                        <li>Rukshana K</li>
-                                                        <li>Sangeetha B</li>
-                                                        <li>Sruthi S</li>
-                                                        <li>Sreenidhi M</li>
-                                                        <li>Swetha E S</li>
-                                                        <li>Tunikipati Krishnaveni </li>
-                                                        <li>Vidhyadhar Narasimha Reddy</li>
-                                                        <li>Yarramalla Geethika Reddy</li>
-                                                        
-                                                    </ul>
-                                                </div>                                      
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="row">
-                                                <div class="card">
-                                                    <div class="card-header"> Promotion </div>
-                                                    <div class="card-body">
-                                                        <ul style="list-style-type:none;margin: 0;  padding: 0;">
-                                                            <li>Manoj M</li>
-                                                            <li>Merlin P I</li>
-                                                            <li>Pooja R</li>
-                                                            <li>Sarath Chandra</li>
-                                                            <li>Smruthi M</li>
-                                                        </ul>
-                                                    </div> 
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                <!-- end of faculty -->
-                    </div>
-                  
-                </div>
-                </div>
-
             </div>
-<!-- end of #teams -->
+        </div>
 
-<!-- footer -->
-<!-- temporary contact us -->
-            <!-- <div class="text-center content-section foot" id="contact" style="min-height: 200px;">
-                <div class="container">
-                    <div class="row">
-                        <h2>CONTACT US</h2>
-                        <hr>
-                        <div class="col-lg-8 mx-auto">
-                        <p>      
-                            For any queries, feel free to contact us anytime.
-                        </p>
-                       
-                       
-                       <a href="https://www.instagram.com/ictas_official/" style="min-height:50px;width:50px;">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                            </svg></a>   
-                       <a href="" style="min-height:50px;width:20px;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                                <path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z"></path>
-                             <path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z"></path>
-                             </svg></a> 
-                       <a href="mailto:ictas.official@gmail.com" style="min-height:50px;width:20px;">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"></path>
-                             </svg></a> 
-                       <a href="https://github.com/ICTAS-official" style="min-height:50px;width:20px;">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                             </svg></a> 
-                                <footer >
-                                    <div class="container align-items-center text-center" style="min-height: 200px;">
-                                        
-                                        <p class="footer-class"><br /><br /><br /><br /><br /><hr><br />Copyright   © ICT@S 2021<br />WEBSITE BY ICT@S WEB DEV TEAM</p>
+    </section>
+    <!-- end of #events -->
+
+    <!-- #teams -->
+    <div class="text-center content-section" id="teams" style="padding:2%;margin:2%;">
+        <div class="container">
+            <div class="row">
+                <h2>Current ICTAS Team</h2>
+                <hr>
+                <div class="col-lg-8 mx-auto" style="min-height: 500px;">
+                    <!-- Role Taba -->
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="members">
+                                <li id="filter-coordinators" class="x active" onclick="changeMemberList(1)">Coordinators
+                                </li>
+                                <li id="filter-core" class="x " onclick="changeMemberList(2)">Core Team Members</li>
+                                <li id="filter-junior" class="x" onclick="changeMemberList(3)">Junior Team</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- End of role taba -->
+
+                    <div class="row" data-aos="flip-right">
+                        <div class="member-coordinator" id="m-coordinator">
+                            <h4>Coordinators</h4>
+                            <div class="row">
+                                <div class="col" data-aos="fade-down">
+                                    <div class="card ms-2">
+                                        <div class="card-header">Chairperson</div>
+                                        <div class="card-body">
+                                            <p class="card-text">G.Abishek Sriram </p>
+                                            <p class="card-text">Sharumathi R. B</p>
+                                        </div>
                                     </div>
-                                </footer>
+                                </div>
+                                <div class="col" data-aos="fade-down">
+                                    <div class="card ms-2">
+                                        <div class="card-header">Secretary</div>
+                                        <div class="card-body">
+                                            <p class="card-text">Sai Srinivas</p>
+                                        </div>
+                                    </div>
+                                    <div class="card ms-2">
+                                        <div class="card-header">Treasurer</div>
+                                        <div class="card-body">
+                                            <p class="card-text">Deepthi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" data-aos="fade-down">
+                                    <div class="card ms-2">
+                                        <div class="card-header">Team Heads</div>
+                                        <div class="card-body">
+                                            <p class="card-text">Venkatesh P.R. (Tech)</p>
+                                            <p class="card-text">Jayaparvathi Ramesh(Non-Tech)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- faculty coordinator -->
+                                <div class="col" data-aos="fade-down">
+                                    <div class="card">
+                                        <div class="card-header">Faculty Coordinator </div>
+                                        <div class="card-body">
+                                            <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                <li> Prof. Vijay Sai R</li>
+                                                <li>Faculty</li>
+                                                <li>ICT, School of Computing</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Core members list -->
+                        <div class="member-core" id="m-core" hidden>
+                            <h4>Core Team</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header"> Tech </div>
+                                        <div class="card-body">
+                                            <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                <li>Adarsh Kumar</li>
+                                                <li>Ankireddypalli Naga Sindhuri</li>
+                                                <li>Chris Rohan M</li>
+                                                <li>Devata Indumathi</li>
+                                                <li>Layamitra C.B.</li>
+                                                <li>Midde Jaheer</li>
+                                                <li>Narayanan B</li>
+                                                <li>Parthiv Sai</li>
+                                                <li>Srijith Bharadwaj D</li>
+                                                <li>Vaikunth S</li>
+                                                <li>Venkatesh P R</li>
+                                                <li>Sai Shivani R</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header"> Non-Tech </div>
+                                        <div class="card-body">
+                                            <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                <li>Anirudh Balaji</li>
+                                                <li>Sreelahari Dindukurthi</li>
+                                                <li>Girish M</li>
+                                                <li>Guduru Charan Sai Chowdary</li>
+                                                <li>Nithiya Shree U V</li>
+                                                <li>Polireddy Pavani</li>
+                                                <li>Megha Ponnuthurai</li>
+                                                <li>J Priyadharsini</li>
+                                                <li>Prranesh raj</li>
+                                                <li>A.Rajasudharshana</li>
+                                                <li>Roshini</li>
+                                                <li>Saathwick V</li>
+                                                <li>Sushmaa P</li>
+                                                <li>Yazhini E</li>
+                                                <li>Gunturu Vidya vasavi</li>
+                                                <li>Jinka Sai Mounika</li>
+                                                <li>Varshini B</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="card">
+                                            <div class="card-header"> Promotion </div>
+                                            <div class="card-body">
+                                                <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                    <li>Maheshwari</li>
+                                                    <li>Tulasidass</li>
+                                                    <li>Sharumathi R. B</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="card">
+                                            <div class="card-header"> Web Development </div>
+                                            <div class="card-body">
+                                                <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                    <li>Narayanan B</li>
+                                                    <li>Srijith Bharadwaj</li>
+                                                    <li> G.Abishek Sriram</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Of Team List -->
+                        <!-- Junior Team List -->
+                        <div class="member-junior" id="m-junior" hidden>
+                            <h4>Core Team</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header"> Tech </div>
+                                        <div class="card-body">
+                                            <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                <li>Anuraadhashree M </li>
+                                                <li>Charith Kapuluru</li>
+                                                <li>Desu Tara Sasaank</li>
+                                                <li>Gudi Vinay</li>
+                                                <li>Habeebun Naseeha S</li>
+                                                <li>Kavya B</li>
+                                                <li>Mahesh Babu M</li>
+                                                <li>Mohnish Srivats R</li>
+                                                <li>Mounica S D</li>
+                                                <li>Pranathi T</li>
+                                                <li>Shashank H S R</li>
+                                                <li>Vijayalakshmi</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header"> Non-Tech </div>
+                                        <div class="card-body">
+                                            <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                <li>Aparnaa R U</li>
+                                                <li>Aliveli Haripriya</li>
+                                                <li>Akula Dhodeepya Sree</li>
+                                                <li>Balakumar S</li>
+                                                <li>Dominic A</li>
+                                                <li>Hari Krishna</li>
+                                                <li>Mandala Puneeth Naidu</li>
+                                                <li>Mudrakola Harshini</li>
+                                                <li>Rishi Harini Badimela</li>
+                                                <li>Rukshana K</li>
+                                                <li>Sangeetha B</li>
+                                                <li>Sruthi S</li>
+                                                <li>Sreenidhi M</li>
+                                                <li>Swetha E S</li>
+                                                <li>Tunikipati Krishnaveni </li>
+                                                <li>Vidhyadhar Narasimha Reddy</li>
+                                                <li>Yarramalla Geethika Reddy</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="card">
+                                            <div class="card-header"> Promotion </div>
+                                            <div class="card-body">
+                                                <ul style="list-style-type:none;margin: 0;  padding: 0;">
+                                                    <li>Manoj M</li>
+                                                    <li>Merlin P I</li>
+                                                    <li>Pooja R</li>
+                                                    <li>Sarath Chandra</li>
+                                                    <li>Smruthi M</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                      
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                
-            </div> -->
-                       <!-- <footer >
-                <div class="container text-center" style="min-height: 200px;">
-                    <p class="footer-class">Copyright   © ICT@S 2021<br />WEBSITE BY ICT@S WEB DEV TEAM</p>
-                </div>
-            </footer> -->
-
-
-<!-- end of temporary contact us -->
-
-<!-- GALEERY -->
-<section class="text-center content-section" id="gallery" style="padding:2%;margin:2%;">
-    <div class="container">
-        <div class="row">
-            <h2> SHOWCASE </h2>
-            <hr>
-            <span class="text-center" style="color: azure;">Glimpse of Previous ICTAS Events </span> <br>   <br>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/images/1.JPG" class=" responsive" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/2.JPG" class=" responsive" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/3.JPG" class=" responsive" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        
-                    
+            </div>
         </div>
-     
-</section>
-<!-- end of gallery -->
-<a id="top" href="# " class=" " role="button " style="display: inline; "><i class="fa fa-chevron-up " style="position:absolute; transform: translateX(16px) translateY(16px); "></i></a>
-<!-- footer -->
-<footer class="page-footer font-small unique-color-dark" id="contact">
 
-    <div style="background-color: #0484da;">
-      <div class="container">
-  
-        <!-- Grid row-->
-        <div class="row py-4 d-flex align-items-center">
-  
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0" >
-            <h6 class="mb-0">For any queries, feel free to contact us anytime!</h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-7 text-center text-md-right social-icons">
-  
-            <!-- Instagram -->
-            <a class="ins-ic" href="https://www.instagram.com/ictas_official/" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-               </svg></a>
-            <!--Email -->
-            <a class="email-ic" href="mailto:ictas.official@gmail.com" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"></path>
-                </svg></a>
-            <!-- Github -->
-            <a class="git-ic" href="https://github.com/ICTAS-official" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                 </svg></a>
-            
-  
-          </div>
-          <!-- Grid column -->
-  
-        </div>
-        <!-- Grid row-->
-  
-      </div>
     </div>
-  
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      ICTAS
-      <br>
-   Website by ICTAS-Web Development Team
-   <br>
+    <!-- end of #teams -->
 
-      </div>
-    <!-- Copyright -->
-  
+    <!-- GALLERY -->
+    <section class="text-center content-section" id="gallery" style="padding:2%;margin:2%;">
+        <div class="container">
+            <div class="row">
+                <h2> SHOWCASE </h2>
+                <hr>
+                <span class="text-center" style="color: azure;">Glimpse of Previous ICTAS Events </span> <br> <br>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/1.JPG" class=" responsive" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/2.JPG" class=" responsive" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/3.JPG" class=" responsive" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of gallery -->
+    <a id="top" href="# " class=" " role="button " style="display: inline; "><i class="fa fa-chevron-up "
+            style="position:absolute; transform: translateX(16px) translateY(16px); "></i></a>
+    <!-- footer -->
+    <footer class="page-footer font-small unique-color-dark" id="contact">
+        <div style="background-color: #0484da;">
+            <div class="container">
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">For any queries, feel free to contact us anytime!</h6>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right social-icons">
+                        <!-- Instagram -->
+                        <a class="ins-ic" href="https://www.instagram.com/ictas_official/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                </path>
+                            </svg></a>
+                        <!--Email -->
+                        <a class="email-ic" href="mailto:ictas.official@gmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+                                </path>
+                            </svg></a>
+                        <!-- Github -->
+                        <a class="git-ic" href="https://github.com/ICTAS-official">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                            </svg></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            ICTAS
+            <br>
+            Website by ICTAS-Web Development Team
+            <br>
+        </div>
+        <!-- Copyright -->
     </footer>
-           
+</body>
 
-    <script src="script.js"></script>
-    </body>
 </html>

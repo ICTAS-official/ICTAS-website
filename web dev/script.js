@@ -45,7 +45,38 @@ function changeMemberList(n)
     }
 }
 
+var curActive = "filter-tech";
+function changeEventList(n)
+{
+    if(n==1)
+    {
 
+        document.getElementById(curActive).className=String(document.getElementById(curActive).className).replace("active","");
+        curActive="filter-tech";
+        document.getElementById(curActive).className=document.getElementById(curActive).className+"active";
+        document.getElementById("m-tech").hidden=false;
+        document.getElementById("m-fun").hidden=true;
+        document.getElementById("m-gaming").hidden=true;
+    }
+    if(n==2)
+    {
+        document.getElementById(curActive).className=  String(document.getElementById(curActive).className).replace("active","");
+        curActive="filter-fun";
+        document.getElementById(curActive).className=document.getElementById(curActive).className+" active";
+        document.getElementById("m-tech").hidden=true;
+        document.getElementById("m-fun").hidden=false;
+        document.getElementById("m-gaming").hidden=true;
+    }
+    if(n==3)
+    {
+        document.getElementById(curActive).className=  String(document.getElementById(curActive).className).replace("active","");
+        curActive="filter-gaming";
+        document.getElementById(curActive).className=document.getElementById(curActive).className+" active";
+        document.getElementById("m-tech").hidden=true;
+        document.getElementById("m-fun").hidden=true;
+        document.getElementById("m-gaming").hidden=false;
+    }
+}
 // code for collapsing navbar when the element is clicked
 $('.nav-link').on('click',function() {
     $('.navbar-collapse').collapse('hide');

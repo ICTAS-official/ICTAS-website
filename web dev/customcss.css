@@ -1,5 +1,6 @@
 /* to solve right space problem */
 
+html,
 body {
     overflow-y: auto;
     overflow-x: hidden;

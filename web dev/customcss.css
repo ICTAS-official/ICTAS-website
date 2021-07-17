@@ -10,8 +10,14 @@
 } */
 
 /* to solve right space problem */
-html, body { overflow-y: auto;
-  overflow-x: hidden; }
+html {
+   overflow-y: auto; */
+  /* overflow-x: auto; */
+  /* width: auto; */
+ }
+ /* html{
+   background-size: contain;
+ } */
 .foot
 {
 background-color:#a3c7f1 75%;
@@ -153,7 +159,7 @@ p:after {
 # teams
 ----------------------------------------------------------------------*/
 
-.card{
+#legacy .card, #teams .card{
   border-color: inherit;
   background-color: #ffffff;
   box-shadow: rgb(255, 230, 230);
@@ -162,13 +168,13 @@ p:after {
   margin: 10px;
 }
 
-.card-img-top {
+#legacy .card-img-top , #teams .card-img-top  {
   width: 100%;
   height: 18vw;
-  object-fit: cover;
+  /* object-fit: ; */
 }
 
-.card-header{
+#legacy .card-header, #teams .card-header{
   font-family: 'Aldrich';
   font-weight: 1000;
   font-size: 16px;
@@ -180,13 +186,22 @@ p:after {
   height: 100px;
 }
 
-.card-body{
+#legacy .card-body, #teams .card-body{
   font-family: 'Akaya Kanadaka';
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#events .card{
+  max-height: 400px;
+  height: 350px;
+}
+#events .card-img-top{
+  max-height: 200px;
+  height:200px;
 }
 
 #members {

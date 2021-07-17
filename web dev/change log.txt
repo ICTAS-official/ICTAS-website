@@ -107,6 +107,20 @@ added  inline css margin-top to infinity icon in jumbotron, and added space &nbs
 newly added navbar_background.js was removed, which was no longer required(commented)
 
 
+
+---------
+17/Jul/2021
+
+Log 12
+Resolved tab errors in #teams and #events : Added the JS inside HTML file As SCRIPT tag
+Resolved out of bounds text in events tab : adjusting height for card to 400px
+Resolved unclosed div tag problem :removed extra code
+Resolved mobile view navbar toggler collapse on click not working error:Added the JS inside HTML file As SCRIPT tag
+
+
+
+
+
 rocket code: pull request:
 // HTML- Placed rocket code in specific position (commented as rocket code)
 // Removed btn-back-to-tops button

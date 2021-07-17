@@ -61,7 +61,14 @@
 
         </div>
     </nav> <br>
+<script> 
 
+
+// code for collapsing navbar when the element is clicked
+$('.nav-link').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+});
+</script>
     <section class="text-center content-section" id="home">
         <div class="container_org">
             <h1 class="org_name" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">ICT@S</h1>
@@ -97,7 +104,7 @@
                         </h3>
                         <p> ICT@S (Information and Communication Technology @ SASTRA) was established in the year 2010.
 
-                            The association is headed by Dr.K.S.Ravichandran and is run by the elected board
+                            The association is headed by <strong>Muthaiah R </strong>and is run by the elected board
                             members.Throughout the year,
 
                             ICT@S conducts a plethora of events which engages the smartest minds across the university.
@@ -192,7 +199,38 @@
 
     </section>
     <!-- end of #legacy -->
+<script>
+    // Code to control the team button tabs
+var currentActive = "filter-coordinators";
+    function changeMemberList(n) {
+    
+    if (n == 1) {
 
+        document.getElementById(currentActive).className = String(document.getElementById(currentActive).className).replace("active", "");
+        currentActive = "filter-coordinators";
+        document.getElementById(currentActive).className = document.getElementById(currentActive).className + " active";
+        document.getElementById("m-coordinator").hidden = false;
+        document.getElementById("m-core").hidden = true;
+        document.getElementById("m-junior").hidden = true;
+    }
+    if (n == 2) {
+        document.getElementById(currentActive).className = String(document.getElementById(currentActive).className).replace("active", "");
+        currentActive = "filter-core";
+        document.getElementById(currentActive).className = document.getElementById(currentActive).className + " active";
+        document.getElementById("m-coordinator").hidden = true;
+        document.getElementById("m-core").hidden = false;
+        document.getElementById("m-junior").hidden = true;
+    }
+    if (n == 3) {
+        document.getElementById(currentActive).className = String(document.getElementById(currentActive).className).replace("active", "");
+        currentActive = "filter-junior";
+        document.getElementById(currentActive).className = document.getElementById(currentActive).className + " active";
+        document.getElementById("m-coordinator").hidden = true;
+        document.getElementById("m-core").hidden = true;
+        document.getElementById("m-junior").hidden = false;
+    }
+}
+</script>
     <!-- #events -->
     <section class="text-center content-section" id="events" style="padding:2%;margin:2%;">
         <div class="container">
@@ -241,37 +279,10 @@
                                         <div class="card-header">Puzzles & Crosswords</div>
                                         <div class="card-body">A wizard in the land of mazes</div>
                                     </div>
-                                </div> -->
-                                <div class="row row-cols-1 row-cols-md-3 g-4">
-                                    <div class="col">
-                                      <div class="card">
-                                        <img src="assets/images/coding.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Coding</h5>
-                                          <p class="card-text">Forget but Lets do,if & for while brackets are our limits and semicolon the destiny.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <div class="card">
-                                        <img src="assets/images/paper_presentation.png" class="card-img-top" alt="..." style="object-fit: contain;">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Paper Presentation</h5>
-                                          <p class="card-text">Showcase the evolution of the innovation and creative ideas.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col">
-                                      <div class="card">
-                                        <img src="assets/images/puzzles.jpg" class="card-img-top" alt="..." style="object-fit: contain;">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Puzzles & Crosswords</h5>
-                                          <p class="card-text">A wizard in the land of mazes</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
+                                </div> 
+                            </div>
+                        </div>
+                                  
                         <!-- Non-Technical Events -->
                         <div class="event-fun" id="m-fun" hidden>
                             <div class="row">
@@ -338,6 +349,46 @@
         </div>
 
     </section>
+<script>
+
+//code to control events
+var curActive = "filter-tech";
+function changeEventList(n) {
+    
+    // console.log("changeEventList");
+    
+    if (n == 1) {
+        // console.log("changeEventList 1");
+        document.getElementById(curActive).className = String(document.getElementById(curActive).className).replace("active", "");
+        curActive = "filter-tech";
+        document.getElementById(curActive).className = document.getElementById(curActive).className + " active";
+        document.getElementById("m-tech").hidden = false;
+        document.getElementById("m-fun").hidden = true;
+        document.getElementById("m-gaming").hidden = true;
+    }
+    if (n == 2) {
+        // console.log("changeEventList 2");
+        document.getElementById(curActive).className = String(document.getElementById(curActive).className).replace("active", "");
+        curActive = "filter-fun";
+        document.getElementById(curActive).className = document.getElementById(curActive).className + " active";
+        document.getElementById("m-tech").hidden = true;
+        document.getElementById("m-fun").hidden = false;
+        document.getElementById("m-gaming").hidden = true;
+    }
+    if (n == 3) {
+        // console.log("changeEventList 3");
+        document.getElementById(curActive).className = String(document.getElementById(curActive).className).replace("active", "");
+        curActive = "filter-gaming";
+        document.getElementById(curActive).className = document.getElementById(curActive).className + " active";
+        document.getElementById("m-tech").hidden = true;
+        document.getElementById("m-fun").hidden = true;
+        document.getElementById("m-gaming").hidden = false;
+    }
+}
+</script>
+
+
+
     <!-- end of #events -->
 
     <!-- #teams -->

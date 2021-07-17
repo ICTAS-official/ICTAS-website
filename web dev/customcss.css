@@ -10,8 +10,10 @@
 } */
 
 /* to solve right space problem */
-html, body { overflow-y: auto;
-  overflow-x: hidden; }
+body{
+  overflow-x: hidden;
+}
+
 .foot
 {
 background-color:#a3c7f1 75%;

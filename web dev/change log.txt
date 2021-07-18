@@ -151,7 +151,9 @@ js code for event and teams tab changing has been modified with jquery in script
   - hidden was replaced with  style="display:none;" to solve show() issue;
 id inconsitence , for teams and events :id(members) was used, which was rectified and css modified accordingly
 
-
+-------
+log 15 
+final preview
 
 rocket code: pull request:
 // HTML- Placed rocket code in specific position (commented as rocket code)

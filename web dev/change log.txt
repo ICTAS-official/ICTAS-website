@@ -155,6 +155,27 @@ id inconsitence , for teams and events :id(members) was used, which was rectifie
 log 15 
 final preview
 
+
+
+
+
+
+
+
+---------
+log 16
+Images resized and changed
+HTML and CSS changed according to W3 Validator
+  - '%20' for URL encoding of space in google fonts api link in head
+  - no background-color as gradient, only background as gradient
+  - added necessary alt text for img tags
+  - no width attribute for hr, used css
+  - removed unwanted stray div close tag
+  - removed unwanted width: contain; from img -events
+  -necessary corrections made in css as well
+added meta tags
+
+
 rocket code: pull request:
 // HTML- Placed rocket code in specific position (commented as rocket code)
 // Removed btn-back-to-tops button

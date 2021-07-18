@@ -1,13 +1,13 @@
-$(document).ready(function() {
-    $(this).scrollTop(0);
-});
+// $(document).ready(function() {
+//     $(this).scrollTop(0);
+// });
 
 $(window).on("load", function() {
     setTimeout(function() { $('.loader-wrapper').fadeOut('slow'); }, 500);
     setTimeout(function() { AOS.init(); },500);
-    setTimeout(function() { $('nav').css('visibility', 'visible'); }, 1000);
+    setTimeout(function() { $('nav').css('visibility', 'visible'); },500);
     setTimeout(function() { $('#home').css('visibility', 'visible'); }, 500);
-    setTimeout(function() { $('.ct-btn-scroll').css('visibility', 'visible'); }, 0);
+    setTimeout(function() { $('.ct-btn-scroll').css('visibility', 'visible'); }, 500);
     $('#top').css("visibility", "hidden");
 });
 
@@ -31,21 +31,20 @@ $('#top').click(function() {
     return false;
 });
 
-$("a[href*='#']").bind('click', function(e) {
-    e.preventDefault(); // prevent hard jump, the default behavior
+// $("a[href*=#]").bind('click', function(e) {
+//     e.preventDefault(); // prevent hard jump, the default behavior
 
-    var target = $(this).attr("href"); // Set the target as variable
+//     var target = $(this).attr("href"); // Set the target as variable
 
-    // perform animated scrolling by getting top-position of target-element and set it as scroll target
-    $('html, body').stop().animate({
-        scrollTop: $(target).offset().top
-    }, 800, function() {
-        location.hash = target; //attach the hash (#jumptarget) to the pageurl
-    });
+//     // perform animated scrolling by getting top-position of target-element and set it as scroll target
+//     $('html, body').stop().animate({
+//         scrollTop: $(target).offset().top
+//     }, 800, function() {
+//         location.hash = target; //attach the hash (#jumptarget) to the pageurl
+//     });
 
-    return false;
-});
-
+//     return false;
+// });
 
 $(document).ready(function(){
     $('#members li').click(function(e){
@@ -66,7 +65,9 @@ $(document).ready(function(){
         else if(x == "filter-junior"){ $('#m-junior').show();}
     });
 });
-
+$('.nav-link').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+});
 $(document).ready(function(){
     $('#event-names li').click(function(e){
         var x=this.id;

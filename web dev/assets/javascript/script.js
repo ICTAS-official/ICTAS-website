@@ -3,10 +3,10 @@ $(document).ready(function() {
 });
 
 $(window).on("load", function() {
-    setTimeout(function() { $('.loader-wrapper').fadeOut('slow'); }, 0);
-    setTimeout(function() { AOS.init(); }, 0);
-    setTimeout(function() { $('nav').css('visibility', 'visible'); }, 0);
-    setTimeout(function() { $('#home').css('visibility', 'visible'); }, 0);
+    setTimeout(function() { $('.loader-wrapper').fadeOut('slow'); }, 500);
+    setTimeout(function() { AOS.init(); },500);
+    setTimeout(function() { $('nav').css('visibility', 'visible'); }, 1000);
+    setTimeout(function() { $('#home').css('visibility', 'visible'); }, 500);
     setTimeout(function() { $('.ct-btn-scroll').css('visibility', 'visible'); }, 0);
     $('#top').css("visibility", "hidden");
 });

@@ -1,7 +1,7 @@
 /* to solve right space problem */
 
 html,
-body {
+body,footer {
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -74,7 +74,11 @@ nav {
     color: whitesmoke!important;
     font-weight: bold;
 }
-
+.menu-center li {
+    border-bottom: 2px solid transparent;
+    
+  
+  }
 .menu-center li:hover {
   border-bottom: 2px solid whitesmoke;
   color: whitesmoke!important;
@@ -90,7 +94,7 @@ nav {
     width: 50%;
     margin-top: -10px;
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 25%;
     flex-direction: row;
 }
 
@@ -162,6 +166,21 @@ p:after {
 .card-body {
     font-family: 'Akaya Kanadaka';
 }
+@media only screen and (max-width: 508px) {
+    .card-img-top {
+        height: 400px;
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+@media only screen  and (max-width: 400px) {
+    .card-img-top {
+        height: 380px;
+        width: auto;
+        max-width: 100%;
+    }
+}
 
 
 /* On mouse-over, add a deeper shadow */
@@ -189,7 +208,7 @@ p:after {
 #members li, #event-names li{
     cursor: pointer;
     display: inline-block;
-    padding: 10px 18px 12px 18px;
+    padding: 10px 18px 10px 18px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
@@ -489,8 +508,6 @@ footer h6 {
 }
 
 .carousel-caption {
-    background-color: #5f98da;
-    opacity: 0.8;
     color: #fff;
 }
 

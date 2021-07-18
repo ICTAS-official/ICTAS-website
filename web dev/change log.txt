@@ -142,6 +142,15 @@ changed border radius to #members li :set to 20px
 
 
 
+------------
+18/Jul/2021
+
+log 14
+js code for event and teams tab changing has been modified with jquery in script.js
+  - js code has been commented and onclick function removed from html
+  - hidden was replaced with  style="display:none;" to solve show() issue;
+id inconsitence , for teams and events :id(members) was used, which was rectified and css modified accordingly
+
 
 
 rocket code: pull request:

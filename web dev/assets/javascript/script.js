@@ -31,7 +31,7 @@ $('#top').click(function() {
     return false;
 });
 
-$('a[href*=#]').bind('click', function(e) {
+$("a[href*='#']").bind('click', function(e) {
     e.preventDefault(); // prevent hard jump, the default behavior
 
     var target = $(this).attr("href"); // Set the target as variable
@@ -47,3 +47,37 @@ $('a[href*=#]').bind('click', function(e) {
 });
 
 
+$(document).ready(function(){
+    $('#members li').click(function(e){
+        var x=this.id;
+        var y=$('#members li.active').attr("id");
+        // console.log("clicked:",x);
+        // console.log("clicked:",e.target.id);
+        // console.log("active:",y);
+        if(y == "filter-coordinators"){ $('#m-coordinator').hide();}
+        else if(y == "filter-core"){ $('#m-core').hide();}
+        else if(y == "filter-junior"){ $('#m-junior').hide();}
+        // console.log("#members ",e.target.id);
+        // $('#members li.active').hide();
+        $('#members li.active').removeClass('active');
+        $(this).addClass('active');
+        if(x == "filter-coordinators"){ $('#m-coordinator').show();}
+        else if(x == "filter-core"){ $('#m-core').show();}
+        else if(x == "filter-junior"){ $('#m-junior').show();}
+    });
+});
+
+$(document).ready(function(){
+    $('#event-names li').click(function(e){
+        var x=this.id;
+        var y=$('#event-names li.active').attr("id");
+        if(y == "filter-tech"){ $('#m-tech').hide();}
+        else if(y == "filter-fun"){ $('#m-fun').hide();}
+        else if(y == "filter-gaming"){ $('#m-gaming').hide();}
+        $('#event-names li.active').removeClass('active');
+        $(this).addClass('active');
+        if(x == "filter-tech"){ $('#m-tech').show();}
+        else if(x == "filter-fun"){ $('#m-fun').show();}
+        else if(x == "filter-gaming"){ $('#m-gaming').show();}
+    });
+});

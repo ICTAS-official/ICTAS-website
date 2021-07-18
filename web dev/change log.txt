@@ -130,6 +130,20 @@ Missed log in LOG 13 : Changed incorrect Head name in About section
 
 
 
+
+
+
+--------
+18/Jul/2021
+
+log 13a
+7d816925a471907c5a7c314a4ca1ade411f7ac70 Overwrite corrections
+changed border radius to #members li :set to 20px 
+
+
+
+
+
 rocket code: pull request:
 // HTML- Placed rocket code in specific position (commented as rocket code)
 // Removed btn-back-to-tops button
